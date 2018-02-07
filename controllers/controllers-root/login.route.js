@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const usersModel = require('../models/user.model');
+const usersModel = require('../../models/user.model');
 
 router.get('/', function(request, response) {
 	//If is already authenticated don't show again the login form

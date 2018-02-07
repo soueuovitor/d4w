@@ -1,4 +1,4 @@
-const model = require('../models/parametros.model');
+const model = require('../../models/parametros.model');
 const express = require('express');
 const router = express.Router();
 
