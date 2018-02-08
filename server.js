@@ -3,6 +3,7 @@ const express = require('express');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const app = express();
+const appnf = express();
 const validator = require('express-validator');
 const fileUpload = require('express-fileupload');
 
@@ -10,9 +11,6 @@ const fileUpload = require('express-fileupload');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const passport = require('passport');
-const usersModel = require('./models/user.model');
-const colabModel = require('./models/colaborador.model');
-
 
 
 
@@ -49,6 +47,20 @@ app.use(fileUpload({
 }));
 app.use(bodyParser.json(), bodyParser.urlencoded({ extended: true }));
 
+
+
+
+
+appnf.use(validator());
+appnf.use(fileUpload({
+    limits: { fileSize: 50 * 128 * 128 },
+}));
+appnf.use(bodyParser.json(), bodyParser.urlencoded({ extended: true }));
+
+
+
+
+
 //new
 app.use(cookieParser());
 app.use(session({
@@ -58,6 +70,22 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
+
+
+
+
+
+appnf.use(cookieParser());
+appnf.use(session({
+	secret: 'someRandomSecretKey',
+	resave: false,
+	saveUninitialized: false
+}));
+appnf.use(passport.initialize());
+appnf.use(passport.session());
+
+
+
 
 passport.serializeUser(function(username, callback) {
 	callback(null, username);
@@ -71,7 +99,14 @@ passport.deserializeUser(function(username, callback) {
 //end of new
 
 app.set('view engine', 'ejs');
-app.set('views','views');
+app.set('views','views/views-root');
+
+
+
+appnf.set('view engine', 'ejs');
+appnf.set('views','views');
+
+
 
 global.connection = mysql.createConnection({
 	host     : 'webitcloud.net',
@@ -88,6 +123,14 @@ app.listen(port, function(){
 	console.log('Server started at: ' + port);
 });
 
+
+
+appnf.listen(2000, function(){
+	console.log('Server started at: ' + port);
+});
+
+
+
 //Midleware that sets the isAuthenticated variable in all views
 app.use(function(request, response, next){
 	response.locals.user = request.user;
@@ -96,6 +139,9 @@ app.use(function(request, response, next){
 });
 
 app.use('/', require('./controllers/controllers-root/index-frontend.route'));
+app.use('/public', express.static('public/public-root'));
+
+/*
 app.use('/gestao', require('./controllers/controllers-root/index-backend.route'));
 app.use('/login', require('./controllers/controllers-root/login.route'));
 app.use('/logout', require('./controllers/controllers-root/logout.route'));
@@ -108,4 +154,13 @@ app.use('/patrocinador', require('./controllers/controllers-root/patrocinador.ro
 app.use('/colaborador', require('./controllers/controllers-root/colaborador.route'));
 app.use('/speaker', require('./controllers/controllers-root/speaker.route'));
 app.use('/profile', require('./controllers/controllers-root/profile.route'));
-app.use('/public', express.static('public'));
+*/
+
+
+
+
+appnf.use('/', require('./controllers/controllers-nf/index.route'));
+
+
+
+appnf.use('/public', express.static('public/public-nf'));
