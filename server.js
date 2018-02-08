@@ -21,6 +21,8 @@ const colabModel = require('./models/colaborador.model');
 
 
 
+
+
 //This function will allow us to retrict the access to the routes
 global.secure = function(type) {
 	return function (request, response, next) {
