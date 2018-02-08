@@ -94,22 +94,24 @@ img {vertical-align: middle;}
     }
     .equipa > li {
       
-
-    border-radius: 50%;
-      width: 250px;
-      height: 250px;
+      background-image: url("../images/vitor.jpg");
+    
+      width: 300px;
+      height: 300px;
       display: inline-block;
-      margin: 0 50px;
+      margin: 5px 35px;
       text-align: center;
+      margin-bottom: 35px;
+      
     }
     .equipa > li img {
       margin-top: -5px;
+      border-radius: 50%;
     }
     .equipa > li:hover img {
       margin-top: 30px;
     }
     .equipa > li img.more-about {
-      
       left: 103px;
       padding: 1px;
       position: absolute;
@@ -123,33 +125,31 @@ img {vertical-align: middle;}
     .equipa > li:hover {
       -moz-box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
       box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
-      opacity: 1;
     }
     .equipa > li:hover span {
-      border-radius: 50%;
+      border-radius: 0;
       -webkit-border-radius: 0;
-      -moz-border-radius: 1;
+      -moz-border-radius: 0;
       top: -100px;
-      background: black;
       opacity: 0.5;
+      background: black;/*imagem da descricaao */
     }
     .equipa > li:hover span p {
       color: white;
       font-size: 14px;
-      margin-bottom: 250px;
     }
     .equipa > li span .text-wrapper {
       opacity: 0;
     }
     .equipa > li:hover span .text-wrapper {
-      bottom: 20px;
-      border-radius: 50%;
+      bottom: 200px;
       left: 0;
       margin: 0 auto;
       position: absolute;
-      right: 0;
-      width: 200px;
+      right: -50px;
+      width: 300px;
       opacity: 1;
+      
     }
     .equipa > li:hover .social {
       margin-top: 250px;
@@ -157,20 +157,24 @@ img {vertical-align: middle;}
     .equipa > li:hover .wrapper > img {
       display: none;
     }
+    .equipa > li:hover h3 {
+      color: rgb(19, 50, 224);
+      margin-top: -105px;
+    }
     .equipa > li .wrapper {
-      border-radius: 50%;
       overflow: hidden;
       position: absolute;
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
     }
     .equipa > li span {
       display: block;
       height: 500px;
       left: -125px;
       position: absolute;
-      top: -5000px;
+      top: -490px;
       width: 500px;
+      background: black;
     }
     .equipa .mamber-img {
       width: 100px;
@@ -186,7 +190,6 @@ img {vertical-align: middle;}
      color: rgb(19, 50, 224);
     }
     .equipa .social {
-      border-radius: 50%;
       list-style: none;
       text-align: center;
       margin: 10px 0 0 0;
@@ -197,7 +200,21 @@ img {vertical-align: middle;}
       display: inline-block;
       padding: 5px;
     }
+    .equipa > li:hover .social li {
+      opacity: 0.5;
+    }
+    .equipa .social li a {
+      cursor: pointer;
+      display: block;
+    }
+    .equipa .social li a:hover {
+      opacity: 0.5;
+    }
+    .equipa .social li img {
+      width: 24px;
+    }
 
-    #circle{  width: 128px; height: 128px; border-radius: 64px; }
-#circle div { position:relative; left: 190px; top: 190px; width: 90px; height: 90px; color: white; text-align:center; }
+    .equipa .social li img {
+      width: 24px;
+    }
     
