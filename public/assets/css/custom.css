@@ -79,3 +79,123 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+
+	/* equipa*/	
+		
+  .equipa {
+
+    padding: 75px 0; 
+    list-style: none;
+    text-align: center;
+    }
+    .equipa h2{
+      color: rgb(255, 255, 255);
+      line-height: 200%;
+    }
+    .equipa > li {
+      
+
+    border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      display: inline-block;
+      margin: 0 50px;
+      text-align: center;
+    }
+    .equipa > li img {
+      margin-top: -5px;
+    }
+    .equipa > li:hover img {
+      margin-top: 30px;
+    }
+    .equipa > li img.more-about {
+      
+      left: 103px;
+      padding: 1px;
+      position: absolute;
+      width: 45px;
+      z-index: 1;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      bottom: 50px;
+    }
+    .equipa > li:hover {
+      -moz-box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+      box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+    }
+    .equipa > li:hover span {
+      border-radius: 50%;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      top: -100px;
+      
+    }
+    .equipa > li:hover span p {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 250px;
+    }
+    .equipa > li span .text-wrapper {
+      opacity: 0;
+    }
+    .equipa > li:hover span .text-wrapper {
+      bottom: 20px;
+      border-radius: 50%;
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      width: 200px;
+      opacity: 1;
+    }
+    .equipa > li:hover .social {
+      margin-top: 250px;
+    }
+    .equipa > li:hover .wrapper > img {
+      display: none;
+    }
+    .equipa > li .wrapper {
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+      width: 250px;
+      height: 250px;
+    }
+    .equipa > li span {
+      display: block;
+      height: 500px;
+      left: -125px;
+      position: absolute;
+      top: -5000px;
+      width: 500px;
+    }
+    .equipa .mamber-img {
+      width: 100px;
+    }
+    
+    .equipa > li h3 em {
+      display: block;
+      font-style: normal;
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 12px;
+     margin-top: 10px;
+     color: rgb(19, 50, 224);
+    }
+    .equipa .social {
+      border-radius: 50%;
+      list-style: none;
+      text-align: center;
+      margin: 10px 0 0 0;
+      padding: 10px;
+    }
+    .equipa .social li {
+      opacity: 0;
+      display: inline-block;
+      padding: 5px;
+    }
+
+    #circle{  width: 128px; height: 128px; border-radius: 64px; }
+#circle div { position:relative; left: 190px; top: 190px; width: 90px; height: 90px; color: white; text-align:center; }
+    
