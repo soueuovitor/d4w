@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modeloColab = require('../models/alterPatrocinio.model');
+const modeloColab = require('../../models/models-nf/alterPatrocinio.model');
 
 
 

@@ -104,15 +104,15 @@ app.set('views','views/views-root');
 
 
 appnf.set('view engine', 'ejs');
-appnf.set('views','views');
+appnf.set('views','views/views-nf');
 
 
 
 global.connection = mysql.createConnection({
-	host     : 'webitcloud.net',
-	user     : 'webitclo_A155',
-	password : 'PW1718A155541',
-	database : 'webitclo_A155',
+	host     : 'd4w.pt',
+	user     : 'dwpt',
+	password : 'Rumoao9.5',
+
 }).on('enqueue', function (sequence) {
 	if ('Query' === sequence.constructor.name) {
 		console.log(sequence.sql);
@@ -138,6 +138,15 @@ app.use(function(request, response, next){
 	next();
 });
 
+appnf.use(function(request, response, next){
+	response.locals.user = request.user;
+	response.locals.isAuthenticated = request.isAuthenticated();
+	next();
+});
+
+
+
+
 app.use('/', require('./controllers/controllers-root/index-frontend.route'));
 app.use('/public', express.static('public/public-root'));
 
@@ -162,5 +171,32 @@ app.use('/profile', require('./controllers/controllers-root/profile.route'));
 appnf.use('/', require('./controllers/controllers-nf/index.route'));
 
 
+appnf.use('/admin', require('./controllers/controllers-nf/admin.route'));
+appnf.use('/workshop', require('./controllers/controllers-nf/workshop.route'));
 
+appnf.use('/colab', require('./controllers/controllers-nf/colab.route'));
+appnf.use('/public', express.static('public'));
+//appnf.use('/users', require('./controllers/controllers-nf/user.route'));
+
+//new
+
+appnf.use('/login', require('./controllers/controllers-nf/login.route'));
+appnf.use('/logout', require('./controllers/controllers-nf/logout.route'));
+appnf.use('/alterColab', require('./controllers/controllers-nf/alterColab.route'));
+appnf.use('/alterSpeaker', require('./controllers/controllers-nf/alterSpeaker.route'));
+appnf.use('/alterPatrocinador', require('./controllers/controllers-nf/alterPatrocinador.route'));
+appnf.use('/alterSessao', require('./controllers/controllers-nf/alterSessao.route'));
+
+appnf.use('/registerColab', require('./controllers/controllers-nf/registerColab.route'));
+appnf.use('/register', require('./controllers/controllers-nf/register.route'));
+appnf.use('/galeria', require('./controllers/controllers-nf/galeria.route'));
+
+appnf.use('/patrocinadores', require('./controllers/controllers-nf/patrocinadores.route'));
+appnf.use('/sessoes', require('./controllers/controllers-nf/sessoes.route'));
+
+appnf.use('/speakers', require('./controllers/controllers-nf/speakers.route'));
+appnf.use('/comprarBilhete', require('./controllers/controllers-nf/comprarBilhete.route'));
+appnf.use('/participantes', require('./controllers/controllers-nf/participantes.route'));
+
+appnf.use('/feedback', require('./controllers/controllers-nf/feedback.route'));
 appnf.use('/public', express.static('public/public-nf'));

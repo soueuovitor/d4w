@@ -2,7 +2,7 @@ module.exports = {
 
 	listDias(callback) {
 
-		var sql = 'SELECT  * from dia';
+		var sql = 'SELECT  * from  dwpt_nortephotography.dia';
 		global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -15,7 +15,7 @@ module.exports = {
 
 
 	readParticipante(username, callback) {
-		var sql = "SELECT * from participantes where username_part=?";
+		var sql = "SELECT * from  dwpt_nortephotography.participantes where username_part=?";
 		global.connection.query(sql, [username], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);
@@ -29,7 +29,7 @@ module.exports = {
 	listWorkshop(callback) {
 
 
-		var sql = 'SELECT * from workshop';
+		var sql = 'SELECT * from  dwpt_nortephotography.workshop';
 		global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -41,7 +41,7 @@ module.exports = {
 	
 	listSpeakers(callback) {
 
-		var sql = 'SELECT * from speakers';
+		var sql = 'SELECT * from  dwpt_nortephotography.speakers';
 		global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -51,7 +51,7 @@ module.exports = {
 	},
 
 	listSessoes(callback) {
-		var sql = 'SELECT * from sessoes';
+		var sql = 'SELECT * from  dwpt_nortephotography.sessoes';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			rows.sort((a, b) => {
@@ -86,7 +86,7 @@ module.exports = {
 
 	listPatrocinadores(callback) {
 
-		var sql = 'SELECT * from patrocinador';
+		var sql = 'SELECT * from  dwpt_nortephotography.patrocinador';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 

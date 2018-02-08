@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const userModel = require('../models/registerColab.model');
+const userModel = require('../../models/models-nf/registerColab.model');
 const formidable = require('formidable');
 const fs = require ('fs');
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modelColab = require('../models/colab.model');
+const modelColab = require('../../models/models-nf/colab.model');
 
 
 

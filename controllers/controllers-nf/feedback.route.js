@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const users = require('../models/feedback.model');
+const users = require('../../models/models-nf/feedback.model');
 
 var nodemailer = require('nodemailer');
 

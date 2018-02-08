@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const modelSpeakers = require('../models/comprarBilhete.model');
+const modelSpeakers = require('../../models/models-nf/comprarBilhete.model');
 
-const model = require('../models/admin.model');
+const model = require('../../models/models-nf/admin.model');
 var nodemailer = require('nodemailer');
 
 

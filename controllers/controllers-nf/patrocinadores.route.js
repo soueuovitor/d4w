@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modelPatrocinadores = require('../models/patrocinadores.model');
+const modelPatrocinadores = require('../../models/models-nf/patrocinadores.model');
 const fs = require ('fs');
 const formidable = require('formidable');
 

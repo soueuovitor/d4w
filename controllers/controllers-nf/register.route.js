@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const userModel = require('../models/register.model');
+const userModel = require('../../models/models-nf/register.model');
 var nodemailer = require('nodemailer');
 var GoogleAuth = require('google-auth-library');
 

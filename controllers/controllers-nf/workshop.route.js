@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const model = require('../models/workshop.model');
+const model = require('../../models/models-nf/workshop.model');
 
 router.get('/', global.secure('admin'), function (request, response) {
 	//console.log(request.user);

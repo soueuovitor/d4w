@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const usersModel = require('../models/login.model');
+const usersModel = require('../../models/models-nf/login.model');
 
 router.post('/valid', function (request, response) {
 

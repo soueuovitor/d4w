@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modelSpeakers = require('../models/participantes.model');
+const modelSpeakers = require('../../models/models-nf/participantes.model');
 
 
 

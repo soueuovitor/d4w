@@ -1,9 +1,9 @@
 	const express = require('express');
 	const router = express.Router();
-	const usersModel = require('../models/index.model');
+	const usersModel = require('../../models/models-nf/index.model');
 	const passport = require('passport');
 	var GoogleAuth = require('google-auth-library');
-	const userModel = require('../models/user.model');
+	const userModel = require('../../models/models-nf/user.model');
 	var nodemailer = require('nodemailer');
 	var crypto = require("crypto");
 

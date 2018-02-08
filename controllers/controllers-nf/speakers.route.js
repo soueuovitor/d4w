@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modelSpeakers = require('../models/speakers.model');
+const modelSpeakers = require('../../models/models-nf/speakers.model');
 const fs = require ('fs');
 const formidable = require('formidable');
 

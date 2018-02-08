@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const modelColab = require('../models/galeria.model');
+const modelColab = require('../../models/models-nf/galeria.model');
 const fs = require ('fs');
 const formidable = require('formidable');
 

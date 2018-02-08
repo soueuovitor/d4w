@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const model = require('../models/admin.model');
+const model = require('../../models/models-nf/admin.model');
 var nodemailer = require('nodemailer');
 
 
