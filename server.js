@@ -93,17 +93,17 @@ app.use(function(request, response, next){
 	next();
 });
 
-app.use('/', require('./controllers/index-frontend.route'));
-app.use('/gestao', require('./controllers/index-backend.route'));
-app.use('/login', require('./controllers/login.route'));
-app.use('/logout', require('./controllers/logout.route'));
-app.use('/sessoes', require('./controllers/sessoes.route'));
-app.use('/bilheteira', require('./controllers/bilheteira.route'));
-app.use('/parametros', require('./controllers/parametros.route'));
+app.use('/', require('./controllers/controllers-root/index-frontend.route'));
+app.use('/gestao', require('./controllers/controllers-root/index-backend.route'));
+app.use('/login', require('./controllers/controllers-root/login.route'));
+app.use('/logout', require('./controllers/controllers-root/logout.route'));
+app.use('/sessoes', require('./controllers/controllers-root/sessoes.route'));
+app.use('/bilheteira', require('./controllers/controllers-root/bilheteira.route'));
+app.use('/parametros', require('./controllers/controllers-root/parametros.route'));
 
-app.use('/listagem', require('./controllers/listagens.route'));
-app.use('/patrocinador', require('./controllers/patrocinador.route'));
-app.use('/colaborador', require('./controllers/colaborador.route'));
-app.use('/speaker', require('./controllers/speaker.route'));
-app.use('/profile', require('./controllers/profile.route'));
+app.use('/listagem', require('./controllers/controllers-root/listagens.route'));
+app.use('/patrocinador', require('./controllers/controllers-root/patrocinador.route'));
+app.use('/colaborador', require('./controllers/controllers-root/colaborador.route'));
+app.use('/speaker', require('./controllers/controllers-root/speaker.route'));
+app.use('/profile', require('./controllers/controllers-root/profile.route'));
 app.use('/public', express.static('public'));

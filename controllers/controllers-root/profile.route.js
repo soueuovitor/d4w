@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const usersModel = require('../models/user.model');
+const usersModel = require('../../models/user.model');
 
 router.get('/', global.secure(), function(request, response) {
 	response.set("Content-Type", "text/html");

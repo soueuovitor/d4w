@@ -1,4 +1,4 @@
-const model = require('../models/patrocinador.model');
+const model = require('../../models/patrocinador.model');
 const express = require('express');
 const router = express.Router();
 

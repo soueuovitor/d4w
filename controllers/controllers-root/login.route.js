@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const usersModel = require('../models/user.model');
+const usersModel = require('../../models/user.model');
 
 router.get('/', function(request, response) {
 	//If is already authenticated don't show again the login form
@@ -22,6 +22,7 @@ router.post('/', function(request, response) {
 		return;
 	}
 
+	
 	usersModel.areValidCredentials(request.body.username, request.body.password, function(areValid) {
 		if (areValid) {
 			//Create the login session

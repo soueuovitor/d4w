@@ -1,4 +1,4 @@
-const model = require('../models/speaker.model');
+const model = require('../../models/speaker.model');
 const express = require('express');
 const router = express.Router();
 

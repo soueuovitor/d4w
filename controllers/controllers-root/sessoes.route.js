@@ -1,6 +1,6 @@
-const model = require('../models/sessoes.model');
-const spe = require('../models/speaker.model');
-const par = require('../models/parametros.model');
+const model = require('../../models/sessoes.model');
+const spe = require('../../models/speaker.model');
+const par = require('../../models/parametros.model');
 const express = require('express');
 const router = express.Router();
 
