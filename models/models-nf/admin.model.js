@@ -315,7 +315,7 @@ module.exports = {
 	},
 	
 	workshop(callback) {
-		var sql = 'SELECT * from workshop';
+		var sql = 'SELECT * from dwpt_nortephotography.workshop';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);

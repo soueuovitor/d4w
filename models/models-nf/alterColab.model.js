@@ -1,7 +1,7 @@
 module.exports = {
 	
 	readColab(username, callback) {
-		var sql = "SELECT * from colaboradores where username_col=?";
+		var sql = "SELECT * from dwpt_nortephotography.colaboradores where username_col=?";
 		global.connection.query(sql, [username], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);
@@ -9,7 +9,7 @@ module.exports = {
 	},
 	
 	listColaboradores(callback) {
-		var sql = 'SELECT * from colaboradores';
+		var sql = 'SELECT * from  dwpt_nortephotography.colaboradores';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -17,7 +17,7 @@ module.exports = {
 	},
 
 	updateColab(data, callback) {
-		var sql = "UPDATE  colaboradores SET nome_colaborador=?, morada_colaborador=? ,email_colaborador=? , numero_colaborador=? ,pago=? , nif_colaborador=?, salario_colab=?, horas_trabalho_diario=? WHERE username_col=?";
+		var sql = "UPDATE   dwpt_nortephotography.colaboradores SET nome_colaborador=?, morada_colaborador=? ,email_colaborador=? , numero_colaborador=? ,pago=? , nif_colaborador=?, salario_colab=?, horas_trabalho_diario=? WHERE username_col=?";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, 0, null, 0, data.horario, data.username],
 			function (error, rows, fields) {
@@ -26,7 +26,7 @@ module.exports = {
 			});
 	},
 	updateColabPago(data, callback) {
-		var sql = "UPDATE colaboradores SET nome_colaborador=?, morada_colaborador=?,email_colaborador=?, numero_colaborador=?, salario_colab=?, nif_colaborador=?,pago=?, horas_trabalho_diario=? where username_col=?";
+		var sql = "UPDATE  dwpt_nortephotography.colaboradores SET nome_colaborador=?, morada_colaborador=?,email_colaborador=?, numero_colaborador=?, salario_colab=?, nif_colaborador=?,pago=?, horas_trabalho_diario=? where username_col=?";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, data.salario, data.nif, 1, data.horario, data.username],
 			function (error, rows, fields) {
@@ -36,7 +36,7 @@ module.exports = {
 	},
 	
 	createColab(data, callback) {
-		var sql = "INSERT INTO colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, salario_colab,password_col,username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, salario_colab,password_col,username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?)";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, null, data.password, data.username, data.horario, data.funcao],
 			function (error, rows, fields) {
@@ -46,7 +46,7 @@ module.exports = {
 	},
 
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -54,7 +54,7 @@ module.exports = {
 	},
 
 	createColabPago(data, callback) {
-		var sql = "INSERT INTO colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, salario_colab, nif_colaborador,  password_col,pago, username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?,?, ?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, salario_colab, nif_colaborador,  password_col,pago, username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?,?, ?)";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, data.salario, data.nif, data.password, 1, data.username, data.horario, data.funcao],
 			function (error, rows, fields) {
@@ -64,7 +64,7 @@ module.exports = {
 	},
 
 	createColabPago2(data, callback) {
-		var sql = "INSERT INTO colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, nif_colaborador,  password_col,pago, username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.colaboradores (nome_colaborador, morada_colaborador,email_colaborador, numero_colaborador, nif_colaborador,  password_col,pago, username_col, horas_trabalho_diario, funcao) VALUES (?,?,?,?,?,?,?,?,?)";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, data.nif, data.password, 1, data.username, data.horario, data.funcao],
 			function (error, rows, fields) {
@@ -76,7 +76,7 @@ module.exports = {
 	removeColaborador(id, callback) {
 
 
-		var sql = "UPDATE colaboradores SET deleted=? where id_colaborador=?";
+		var sql = "UPDATE  dwpt_nortephotography.colaboradores SET deleted=? where id_colaborador=?";
 		global.connection.query(
 			sql, [1, id],
 			function (error, rows, fields) {

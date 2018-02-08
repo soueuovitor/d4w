@@ -1,7 +1,7 @@
 module.exports = {
 	
 	readImagens(callback) {
-		var sql = "SELECT * from galeria";
+		var sql = "SELECT * from  dwpt_nortephotography.galeria";
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -12,7 +12,7 @@ module.exports = {
     
 
     listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -21,7 +21,7 @@ module.exports = {
     
 
     createFoto(data, callback) {
-		var sql = "INSERT INTO galeria (nome_foto, caminho) VALUES (?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.galeria (nome_foto, caminho) VALUES (?,?)";
 		global.connection.query(
 			sql, [data.name, data.path],
 			function (error, rows, fields) {
@@ -32,7 +32,7 @@ module.exports = {
 	
 
 	removePhoto(name, callback) {
-		var sql = "DELETE from galeria WHERE caminho=?";
+		var sql = "DELETE from  dwpt_nortephotography.galeria WHERE caminho=?";
 		global.connection.query(sql, [name], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);

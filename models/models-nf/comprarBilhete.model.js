@@ -1,7 +1,7 @@
 module.exports = {
 
 comprarBilhete(data, callback) {
-		var sql = "INSERT INTO bilhetes (data_bilhete, username_comprador) VALUES (?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.bilhetes (data_bilhete, username_comprador) VALUES (?,?)";
 		global.connection.query(
 			sql, [data.dia, data.user],
 			function (error, rows, fields) {
@@ -11,7 +11,7 @@ comprarBilhete(data, callback) {
 	},
 
 	workshop(callback) {
-		var sql = 'SELECT * from workshop';
+		var sql = 'SELECT * from  dwpt_nortephotography.workshop';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -19,7 +19,7 @@ comprarBilhete(data, callback) {
 	},
 
 	readUser(username, callback) {
-		var sql = "SELECT * from users where username=?";
+		var sql = "SELECT * from  dwpt_nortephotography.users where username=?";
 		global.connection.query(sql, [username], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);
@@ -34,7 +34,7 @@ comprarBilhete(data, callback) {
 
 	listBilhetes(callback) {
 
-		var sql = 'SELECT  username_comprador, DATE_FORMAT(data_bilhete, "%Y-%m-%d") AS data_bilhete from bilhetes';
+		var sql = 'SELECT  username_comprador, DATE_FORMAT(data_bilhete, "%Y-%m-%d") AS data_bilhete from  dwpt_nortephotography.bilhetes';
 		global.connection.query(sql, function (error, rows, fields) {
 
 console.log(rows[0])
@@ -52,7 +52,7 @@ console.log(rows[0])
 
 
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -62,7 +62,7 @@ console.log(rows[0])
 	
 	listDias(callback) {
 		
-		var sql = 'SELECT * from dia';
+		var sql = 'SELECT * from  dwpt_nortephotography.dia';
 		global.connection.query(sql, function (error, rows, fields) {
 		
 	

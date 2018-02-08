@@ -1,14 +1,14 @@
 module.exports = {
 	
 	readColab(username, callback) {
-		var sql = "SELECT * from colaboradores where username_col=?";
+		var sql = "SELECT * from  dwpt_nortephotography.colaboradores where username_col=?";
 		global.connection.query(sql, [username], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);
 		});
 	},
 	listWorkshop(callback) {
-		var sql = 'SELECT * from workshop';
+		var sql = 'SELECT * from  dwpt_nortephotography.workshop';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -16,7 +16,7 @@ module.exports = {
 	},
 	
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -25,7 +25,7 @@ module.exports = {
 
 	
 	listColaboradores(callback) {
-		var sql = 'SELECT * from colaboradores';
+		var sql = 'SELECT * from  dwpt_nortephotography.colaboradores';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);

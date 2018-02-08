@@ -21,6 +21,7 @@ router.post('/valid', function (request, response) {
 
 
         usersModel.areValidCredentials(request.body.username, request.body.password, function (areValid) {
+            
             if (areValid) {
                 //Create the login session
 

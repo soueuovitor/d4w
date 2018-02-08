@@ -1,7 +1,7 @@
 module.exports = {
 
 		listSpeakers(callback) {
-		var sql = 'SELECT * from speakers';
+		var sql = 'SELECT * from  dwpt_nortephotography.speakers';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -9,7 +9,7 @@ module.exports = {
 	},
 	
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -17,7 +17,7 @@ module.exports = {
 	},
 
 	createSpeakers(data, callback) {
-		var sql = "INSERT INTO speakers (nome_speaker, morada_speaker, email_speaker, numero_speaker, cache_speaker, introducao ) VALUES (?,?,?,?,?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.speakers (nome_speaker, morada_speaker, email_speaker, numero_speaker, cache_speaker, introducao ) VALUES (?,?,?,?,?,?)";
 		global.connection.query(
 			sql, [data.name, data.morada, data.email, data.numero, data.cache, data.introducao],
 			function (error, rows, fields) {
@@ -28,7 +28,7 @@ module.exports = {
 	
 		emailExists(email, callback) {
 
-		var sql = "SELECT * FROM speakers WHERE email_speaker=?";
+		var sql = "SELECT * FROM  dwpt_nortephotography.speakers WHERE email_speaker=?";
 		global.connection.query(sql, [email], function (error, rows, fields) {
 			if (error) throw error;
 			if (rows.length == 1 && rows[0].email === email) {

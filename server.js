@@ -11,8 +11,9 @@ const fileUpload = require('express-fileupload');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const passport = require('passport');
+const passportnf = require('passport');
 
-
+const usersModel = require('./models/models-nf/user.model');
 
 
 
@@ -81,8 +82,8 @@ appnf.use(session({
 	resave: false,
 	saveUninitialized: false
 }));
-appnf.use(passport.initialize());
-appnf.use(passport.session());
+appnf.use(passportnf.initialize());
+appnf.use(passportnf.session());
 
 
 
@@ -92,6 +93,16 @@ passport.serializeUser(function(username, callback) {
 });
 
 passport.deserializeUser(function(username, callback) {
+	usersModel.read(username, function(data) {
+		callback(null, data);
+	})
+});
+
+passportnf.serializeUser(function(username, callback) {
+	callback(null, username);
+});
+
+passportnf.deserializeUser(function(username, callback) {
 	usersModel.read(username, function(data) {
 		callback(null, data);
 	})

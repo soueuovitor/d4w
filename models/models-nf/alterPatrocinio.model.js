@@ -1,7 +1,7 @@
 module.exports = {
 	
 	readPatrocinio(nome, callback) {
-		var sql = "SELECT * from patrocinador where nome_patrocinador=?";
+		var sql = "SELECT * from  dwpt_nortephotography.patrocinador where nome_patrocinador=?";
 		global.connection.query(sql, [nome], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);
@@ -9,7 +9,7 @@ module.exports = {
 	},
 	
 	updatePatrocinador(data, callback) {
-		var sql = "UPDATE patrocinador SET valor_doado=? WHERE nome_patrocinador=?";
+		var sql = "UPDATE  dwpt_nortephotography.patrocinador SET valor_doado=? WHERE nome_patrocinador=?";
 		global.connection.query(
 			sql, [data.valor, data.name],
 			function (error, rows, fields) {
@@ -19,7 +19,7 @@ module.exports = {
 	},
 
 	removePatrocinio(name, callback) {
-		var sql = "UPDATE patrocinador  SET deleted=? WHERE nome_patrocinador=?";
+		var sql = "UPDATE  dwpt_nortephotography.patrocinador  SET deleted=? WHERE nome_patrocinador=?";
 		global.connection.query(sql, [1, name], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -27,7 +27,7 @@ module.exports = {
 	},
 
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -35,7 +35,7 @@ module.exports = {
 	},
 
 	createPatrocinio(data, callback) {
-		var sql = "INSERT INTO patrocinador (nome_patrocinador, valor_doado ) VALUES (?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.patrocinador (nome_patrocinador, valor_doado ) VALUES (?,?)";
 		global.connection.query(
 			sql, [data.name, data.valor],
 			function (error, rows, fields) {
@@ -45,7 +45,7 @@ module.exports = {
 	},
 	
 	listPatrocinadores(callback) {
-		var sql = 'SELECT * from patrocinador';
+		var sql = 'SELECT * from  dwpt_nortephotography.patrocinador';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -53,7 +53,7 @@ module.exports = {
 	},
 	
 	readPatrocinio(nome, callback) {
-		var sql = "SELECT * from patrocinador where nome_patrocinador=?";
+		var sql = "SELECT * from  dwpt_nortephotography.patrocinador where nome_patrocinador=?";
 		global.connection.query(sql, [nome], function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows[0]);

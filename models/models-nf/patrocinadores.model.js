@@ -1,7 +1,7 @@
 module.exports = {
 
 	listPatrocinadores(callback) {
-		var sql = 'SELECT * from patrocinador';
+		var sql = 'SELECT * from  dwpt_nortephotography.patrocinador';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -9,7 +9,7 @@ module.exports = {
 	},
 	
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -17,7 +17,7 @@ module.exports = {
 	},
 
 	createPatrocinio(data, callback) {
-		var sql = "INSERT INTO patrocinador (nome_patrocinador, valor_doado ) VALUES (?,?)";
+		var sql = "INSERT INTO  dwpt_nortephotography.patrocinador (nome_patrocinador, valor_doado ) VALUES (?,?)";
 		global.connection.query(
 			sql, [data.name, data.valor],
 			function (error, rows, fields) {

@@ -1,7 +1,7 @@
 module.exports = {
 
     listSessoes(callback) {
-        var sql = 'SELECT * from sessoes';
+        var sql = 'SELECT * from  dwpt_nortephotography.sessoes';
         global.connection.query(sql, function (error, rows, fields) {
             if (error) throw error;
             callback(rows);
@@ -9,7 +9,7 @@ module.exports = {
     },
     listDias(callback) {
 
-        var sql = 'SELECT * from dia';
+        var sql = 'SELECT * from  dwpt_nortephotography.dia';
         global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -20,7 +20,7 @@ module.exports = {
 
     listSalas(callback) {
 
-        var sql = 'SELECT * from salas';
+        var sql = 'SELECT * from  dwpt_nortephotography.salas';
         global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -31,7 +31,7 @@ module.exports = {
     
     listSpeakers(callback) {
 
-        var sql = 'SELECT * from speakers';
+        var sql = 'SELECT * from  dwpt_nortephotography.speakers';
         global.connection.query(sql, function (error, rows, fields) {
 
 
@@ -41,7 +41,7 @@ module.exports = {
     },
     tittleExists(tittle, callback) {
 
-        var sql = "SELECT * FROM sessoes WHERE titulo_sessao=?";
+        var sql = "SELECT * FROM  dwpt_nortephotography.sessoes WHERE titulo_sessao=?";
         global.connection.query(sql, [tittle], function (error, rows, fields) {
             if (error) throw error;
             if (rows.length == 1 && rows[0].titulo_sessao === tittle) {
@@ -52,7 +52,7 @@ module.exports = {
         });
     },
     horaExists(data,callback){
-        var sql = "SELECT * from sessoes WHERE data_sessao=? and sala=?  and (? >= hora_inicio and ? <= duracao or ? >= hora_inicio and ? <= duracao or ? < hora_inicio and ? > duracao)";
+        var sql = "SELECT * from  dwpt_nortephotography.sessoes WHERE data_sessao=? and sala=?  and (? >= hora_inicio and ? <= duracao or ? >= hora_inicio and ? <= duracao or ? < hora_inicio and ? > duracao)";
         global.connection.query(
             sql, [data.data, data.sala, data.inicio, data.inicio, data.fim, data.fim, data.inicio, data.fim],
             function (error, rows, fields) {
@@ -68,7 +68,7 @@ module.exports = {
     },
 
 	listFeedback(callback) {
-		var sql = 'SELECT * from feedback';
+		var sql = 'SELECT * from  dwpt_nortephotography.feedback';
 		global.connection.query(sql, function (error, rows, fields) {
 			if (error) throw error;
 			callback(rows);
@@ -82,7 +82,7 @@ module.exports = {
 
 
     createSessao(data, callback) {
-        var sql = "INSERT INTO sessoes (titulo_sessao, desc_titulo, texto_intro, descricao_sessao, data_sessao,speaker_sessao,hora_inicio,duracao, categoria, sala, caminho) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
+        var sql = "INSERT INTO  dwpt_nortephotography.sessoes (titulo_sessao, desc_titulo, texto_intro, descricao_sessao, data_sessao,speaker_sessao,hora_inicio,duracao, categoria, sala, caminho) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
         global.connection.query(
             sql, [data.titulo, data.desc_titulo, data.texto_intro, data.descricao, data.data, data.speaker, data.inicio, data.fim, data.categoria, data.sala, data.caminho],
             function (error, rows, fields) {
