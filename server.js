@@ -202,7 +202,9 @@ appnf.use(function(request, response, next){
 });
 
 
-appts.use(function(request, response, next){
+appts.use(function(request, response, next){4
+
+
 	response.locals.user = request.user;
 	response.locals.isAuthenticated = request.isAuthenticated();
 	next();
@@ -272,15 +274,15 @@ appts.use('/', require('./controllers/controllers-ts/index-frontend.route'));
 appts.use('/public', express.static('public/public-ts'));
 
 
-appts.use('/gestao', require('./controllers/index-backend.route'));
-appts.use('/login', require('./controllers/login.route'));
-appts.use('/logout', require('./controllers/logout.route'));
-appts.use('/sessoes', require('./controllers/sessoes.route'));
-appts.use('/bilheteira', require('./controllers/bilheteira.route'));
-appts.use('/parametros', require('./controllers/parametros.route'));
+appts.use('/gestao', require('./controllers/controllers-ts/index-backend.route'));
+appts.use('/login', require('./controllers/controllers-ts/login.route'));
+appts.use('/logout', require('./controllers/controllers-ts/logout.route'));
+appts.use('/sessoes', require('./controllers/controllers-ts/sessoes.route'));
+appts.use('/bilheteira', require('./controllers/controllers-ts/bilheteira.route'));
+appts.use('/parametros', require('./controllers/controllers-ts/parametros.route'));
 
-appts.use('/listagem', require('./controllers/listagens.route'));
-appts.use('/patrocinador', require('./controllers/patrocinador.route'));
-appts.use('/colaborador', require('./controllers/colaborador.route'));
-appts.use('/speaker', require('./controllers/speaker.route'));
-appts.use('/profile', require('./controllers/profile.route'));
+appts.use('/listagem', require('./controllers/controllers-ts/listagens.route'));
+appts.use('/patrocinador', require('./controllers/controllers-ts/patrocinador.route'));
+appts.use('/colaborador', require('./controllers/controllers-ts/colaborador.route'));
+appts.use('/speaker', require('./controllers/controllers-ts/speaker.route'));
+appts.use('/profile', require('./controllers/controllers-ts/profile.route'));
