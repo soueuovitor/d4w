@@ -1,0 +1,2804 @@
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+Server started at: 3000
+Server started at: 3000
+Server started at: 3000
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT password FROM  dwpt_nortephotography.users WHERE username='admin'
+undefined
+SELECT password FROM  dwpt_nortephotography.users WHERE username='vitor'
+undefined
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.participantes where username_part='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.salas
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.salas
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.participantes where username_part='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.participantes where username_part='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+INSERT INTO  dwpt_nortephotography.feedback ( nome_pessoal, email_pessoal, mensagem) VALUES ('sa,.dmn','vhoa1995@hotmail.com','asdfasdfasdf')
+{ Error: Hostname/IP doesn't match certificate's altnames: "Host: smtp.gmail.com. is not in the cert's altnames: DNS:*.a2hosting.com, DNS:a2hosting.com"
+    at Object.checkServerIdentity (tls.js:222:17)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1109:29)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+  reason: 'Host: smtp.gmail.com. is not in the cert\'s altnames: DNS:*.a2hosting.com, DNS:a2hosting.com',
+  host: 'smtp.gmail.com',
+  cert: 
+   { subject: 
+      { C: 'US',
+        ST: 'Michigan',
+        L: 'Ann Arbor',
+        O: 'A2 Hosting, Inc.',
+        CN: '*.a2hosting.com' },
+     issuer: 
+      { C: 'US',
+        O: 'DigiCert Inc',
+        OU: 'www.digicert.com',
+        CN: 'DigiCert SHA2 High Assurance Server CA' },
+     subjectaltname: 'DNS:*.a2hosting.com, DNS:a2hosting.com',
+     infoAccess: { 'OCSP - URI': [Array], 'CA Issuers - URI': [Array] },
+     modulus: 'BEB07F3975F1C044724F993E83D38A2DDE91205881A16EA0BB615214A1120D9523114E8A9955FEFEF87BFB98F7C1B3299BA9A106F9B68E8D737135BF9AC31E3BF1FD3F89E3D8ABB9009A0B95E20B3A2D10B668402E8450F8850B40578BC9F79765EC3E8C49C11E856B6D3577F49FD497B4405565814E2BCBBF3748D26DD82D3E8BEE464268CA7C36A7E9B8DB4F5BF7C701A03862E57ACD148CB04CBA7761C91D70D6C02F207550042AD692AC1916C455B0A27D098B83F30B8ED7F25B32671A3E9D88DBDEFDAA02E57D101E6C3FC7BBA861BA75D4B3B862660E94870773E18ADF36D2204DCE17A39C832E42D670FF3BEB4143C1C0A6096D6A912C23FCDCF79B2F',
+     exponent: '0x10001',
+     valid_from: 'Apr 27 00:00:00 2016 GMT',
+     valid_to: 'May  6 12:00:00 2019 GMT',
+     fingerprint: '9D:31:D7:C1:F4:D1:3D:71:77:B6:EE:45:18:5E:1B:71:33:40:6F:97',
+     ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+     serialNumber: '061BAA404E78F0B7B820244EA9162A41',
+     raw: <Buffer 30 82 05 5c 30 82 04 44 a0 03 02 01 02 02 10 06 1b aa 40 4e 78 f0 b7 b8 20 24 4e a9 16 2a 41 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 70 31 0b ... > },
+  code: 'ECONNECTION',
+  command: 'CONN' }
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+{ Error: Hostname/IP doesn't match certificate's altnames: "Host: smtp.gmail.com. is not in the cert's altnames: DNS:*.a2hosting.com, DNS:a2hosting.com"
+    at Object.checkServerIdentity (tls.js:222:17)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1109:29)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+  reason: 'Host: smtp.gmail.com. is not in the cert\'s altnames: DNS:*.a2hosting.com, DNS:a2hosting.com',
+  host: 'smtp.gmail.com',
+  cert: 
+   { subject: 
+      { C: 'US',
+        ST: 'Michigan',
+        L: 'Ann Arbor',
+        O: 'A2 Hosting, Inc.',
+        CN: '*.a2hosting.com' },
+     issuer: 
+      { C: 'US',
+        O: 'DigiCert Inc',
+        OU: 'www.digicert.com',
+        CN: 'DigiCert SHA2 High Assurance Server CA' },
+     subjectaltname: 'DNS:*.a2hosting.com, DNS:a2hosting.com',
+     infoAccess: { 'OCSP - URI': [Array], 'CA Issuers - URI': [Array] },
+     modulus: 'BEB07F3975F1C044724F993E83D38A2DDE91205881A16EA0BB615214A1120D9523114E8A9955FEFEF87BFB98F7C1B3299BA9A106F9B68E8D737135BF9AC31E3BF1FD3F89E3D8ABB9009A0B95E20B3A2D10B668402E8450F8850B40578BC9F79765EC3E8C49C11E856B6D3577F49FD497B4405565814E2BCBBF3748D26DD82D3E8BEE464268CA7C36A7E9B8DB4F5BF7C701A03862E57ACD148CB04CBA7761C91D70D6C02F207550042AD692AC1916C455B0A27D098B83F30B8ED7F25B32671A3E9D88DBDEFDAA02E57D101E6C3FC7BBA861BA75D4B3B862660E94870773E18ADF36D2204DCE17A39C832E42D670FF3BEB4143C1C0A6096D6A912C23FCDCF79B2F',
+     exponent: '0x10001',
+     valid_from: 'Apr 27 00:00:00 2016 GMT',
+     valid_to: 'May  6 12:00:00 2019 GMT',
+     fingerprint: '9D:31:D7:C1:F4:D1:3D:71:77:B6:EE:45:18:5E:1B:71:33:40:6F:97',
+     ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+     serialNumber: '061BAA404E78F0B7B820244EA9162A41',
+     raw: <Buffer 30 82 05 5c 30 82 04 44 a0 03 02 01 02 02 10 06 1b aa 40 4e 78 f0 b7 b8 20 24 4e a9 16 2a 41 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 70 31 0b ... > },
+  code: 'ECONNECTION',
+  command: 'CONN' }
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+INSERT INTO  dwpt_nortephotography.feedback ( nome_pessoal, email_pessoal, mensagem) VALUES ('gfgf','gajodaluz@workevent.pt','dddd')
+{ Error: Hostname/IP doesn't match certificate's altnames: "Host: smtp.gmail.com. is not in the cert's altnames: DNS:*.a2hosting.com, DNS:a2hosting.com"
+    at Object.checkServerIdentity (tls.js:222:17)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1109:29)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+  reason: 'Host: smtp.gmail.com. is not in the cert\'s altnames: DNS:*.a2hosting.com, DNS:a2hosting.com',
+  host: 'smtp.gmail.com',
+  cert: 
+   { subject: 
+      { C: 'US',
+        ST: 'Michigan',
+        L: 'Ann Arbor',
+        O: 'A2 Hosting, Inc.',
+        CN: '*.a2hosting.com' },
+     issuer: 
+      { C: 'US',
+        O: 'DigiCert Inc',
+        OU: 'www.digicert.com',
+        CN: 'DigiCert SHA2 High Assurance Server CA' },
+     subjectaltname: 'DNS:*.a2hosting.com, DNS:a2hosting.com',
+     infoAccess: { 'OCSP - URI': [Array], 'CA Issuers - URI': [Array] },
+     modulus: 'BEB07F3975F1C044724F993E83D38A2DDE91205881A16EA0BB615214A1120D9523114E8A9955FEFEF87BFB98F7C1B3299BA9A106F9B68E8D737135BF9AC31E3BF1FD3F89E3D8ABB9009A0B95E20B3A2D10B668402E8450F8850B40578BC9F79765EC3E8C49C11E856B6D3577F49FD497B4405565814E2BCBBF3748D26DD82D3E8BEE464268CA7C36A7E9B8DB4F5BF7C701A03862E57ACD148CB04CBA7761C91D70D6C02F207550042AD692AC1916C455B0A27D098B83F30B8ED7F25B32671A3E9D88DBDEFDAA02E57D101E6C3FC7BBA861BA75D4B3B862660E94870773E18ADF36D2204DCE17A39C832E42D670FF3BEB4143C1C0A6096D6A912C23FCDCF79B2F',
+     exponent: '0x10001',
+     valid_from: 'Apr 27 00:00:00 2016 GMT',
+     valid_to: 'May  6 12:00:00 2019 GMT',
+     fingerprint: '9D:31:D7:C1:F4:D1:3D:71:77:B6:EE:45:18:5E:1B:71:33:40:6F:97',
+     ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+     serialNumber: '061BAA404E78F0B7B820244EA9162A41',
+     raw: <Buffer 30 82 05 5c 30 82 04 44 a0 03 02 01 02 02 10 06 1b aa 40 4e 78 f0 b7 b8 20 24 4e a9 16 2a 41 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 70 31 0b ... > },
+  code: 'ECONNECTION',
+  command: 'CONN' }
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from dwpt_techsummit.users where ativo=1 AND username='admin'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from dwpt_techsummit.users where ativo=1 AND username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+TypeError: /home/dwpt/etc/d4w.pt/d4w/views/views-ts/index-backend.ejs:3
+    1| <% include partials/header-backend %>
+    2| 
+ >> 3|     <%
+    4|     var bilhetes = bilheteira.length
+    5|     var colaboradores = colaborador.length
+    6|     var patrocinios = patrocinador.length
+
+Cannot read property 'precoBilhete' of undefined
+    at eval (eval at compile (/home/dwpt/etc/d4w.pt/d4w/node_modules/ejs/lib/ejs.js:549:12), <anonymous>:37:32)
+    at returnedFn (/home/dwpt/etc/d4w.pt/d4w/node_modules/ejs/lib/ejs.js:580:17)
+    at tryHandleCache (/home/dwpt/etc/d4w.pt/d4w/node_modules/ejs/lib/ejs.js:223:34)
+    at View.exports.renderFile [as engine] (/home/dwpt/etc/d4w.pt/d4w/node_modules/ejs/lib/ejs.js:437:10)
+    at View.render (/home/dwpt/etc/d4w.pt/d4w/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/dwpt/etc/d4w.pt/d4w/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/dwpt/etc/d4w.pt/d4w/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/dwpt/etc/d4w.pt/d4w/node_modules/express/lib/response.js:1008:7)
+    at /home/dwpt/etc/d4w.pt/d4w/controllers/controllers-ts/index-backend.route.js:19:18
+    at Query._callback (/home/dwpt/etc/d4w.pt/d4w/models/models-ts/sessoes.model.js:6:4)
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.colaboradores where ativo=1
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_techsummit.patrocinadores WHERE ativo=1
+SELECT * from dwpt_techsummit.speakers WHERE ativo=1
+SELECT * from dwpt_techsummit.bilhetes
+SELECT * from dwpt_techsummit.colaboradores where tipo="Pago"
+SELECT idParametros, lotacaoW,cacheS,precoBilhete,nomeW,localW, DATE_FORMAT(data_inicioW, "%d/%m/%Y") AS data_inicioW,  DATE_FORMAT(data_fimW, "%d/%m/%Y") AS data_fimW from dwpt_techsummit.parametros
+SELECT * from dwpt_techsummit.sessoes WHERE ativo=1 ORDER BY dataSessao, horaI
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+DELETE from dwpt_nortephotography.dia WHERE data='NaN-2018-NaN'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+DELETE from dwpt_nortephotography.dia WHERE data='NaN-2018-NaN'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * FROM dwpt_nortephotography.dia WHERE data='2018-02-17'
+undefined
+INSERT INTO dwpt_nortephotography.dia (data) VALUES ('2018-02-17')
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+DELETE from dwpt_nortephotography.dia WHERE data='NaN-2018-NaN'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.salas
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+UPDATE dwpt_nortephotography.workshop SET preco='24' WHERE id_workshop='3'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from dwpt_nortephotography.feedback
+SELECT * from dwpt_nortephotography.speakers
+SELECT * from dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from dwpt_nortephotography.dia
+SELECT * from dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from  dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.participantes where username_part='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT * from  dwpt_nortephotography.feedback
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.colaboradores
+SELECT * from dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.participantes
+[ '2018-2-17', '2018-2-22', '2018-3-1' ]
+SELECT * from dwpt_nortephotography.bilhetes
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.participantes where username_part='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.speakers
+SELECT * from  dwpt_nortephotography.workshop
+SELECT * from  dwpt_nortephotography.sessoes
+SELECT  * from  dwpt_nortephotography.dia
+SELECT * from  dwpt_nortephotography.patrocinador
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+SELECT * from  dwpt_nortephotography.users where username='vitor'
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+Server started at: 3000
+Server started at: 3000
+Server started at: 3000

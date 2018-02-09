@@ -22,7 +22,13 @@ const usersModel = require('./models/models-nf/user.model');
 const usersModelTs = require('./models/models-ts/user.model');
 
 
+const https = require("https"),
+  fs = require("fs");
 
+const options = {
+  key: fs.readFileSync("../../../ssl/keys/d2c04_12877_55d2d9671664763308e2c75a86b06bcf.key"),
+  cert: fs.readFileSync("../../../ssl/certs/d4w_pt_d2c04_12877_1549135638_5af8d66c3674c165fb5ef79b2bbcd50b.crt")
+};
 
 
 
@@ -172,9 +178,18 @@ global.connection = mysql.createConnection({
 	}
 });
 
-app.listen(15000, function(){
-	console.log('Server started at: ' + port);
-});
+/*
+
+
+
+*/
+
+
+
+
+
+https.createServer(options, app).listen(15000);
+
 
 
 
