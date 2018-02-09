@@ -4,6 +4,8 @@ const mysql = require('mysql');
 const bodyParser = require('body-parser');
 const app = express();
 const appnf = express();
+const appts = express();
+
 const validator = require('express-validator');
 const fileUpload = require('express-fileupload');
 
@@ -12,8 +14,13 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const passport = require('passport');
 const passportnf = require('passport');
+const passportts = require('passport');
 
 const usersModel = require('./models/models-nf/user.model');
+
+
+const usersModelTs = require('./models/models-ts/user.model');
+
 
 
 
@@ -59,6 +66,11 @@ appnf.use(fileUpload({
 appnf.use(bodyParser.json(), bodyParser.urlencoded({ extended: true }));
 
 
+appts.use(validator());
+appts.use(fileUpload({
+    limits: { fileSize: 50 * 128 * 128 },
+}));
+appts.use(bodyParser.json(), bodyParser.urlencoded({ extended: true }));
 
 
 
@@ -86,6 +98,19 @@ appnf.use(passportnf.initialize());
 appnf.use(passportnf.session());
 
 
+appts.use(cookieParser());
+appts.use(session({
+	secret: 'someRandomSecretKey',
+	resave: false,
+	saveUninitialized: false
+}));
+appts.use(passportts.initialize());
+appts.use(passportts.session());
+
+
+
+
+
 
 
 passport.serializeUser(function(username, callback) {
@@ -107,6 +132,17 @@ passportnf.deserializeUser(function(username, callback) {
 		callback(null, data);
 	})
 });
+
+
+passportts.serializeUser(function(username, callback) {
+	callback(null, username);
+});
+
+passportts.deserializeUser(function(username, callback) {
+	usersModelTs.read(username, function(data) {
+		callback(null, data);
+	})
+});
 //end of new
 
 app.set('view engine', 'ejs');
@@ -116,6 +152,12 @@ app.set('views','views/views-root');
 
 appnf.set('view engine', 'ejs');
 appnf.set('views','views/views-nf');
+
+
+
+appts.set('view engine', 'ejs');
+appts.set('views','views/views-ts');
+
 
 
 
@@ -130,16 +172,20 @@ global.connection = mysql.createConnection({
 	}
 });
 
-app.listen(port, function(){
+app.listen(15000, function(){
 	console.log('Server started at: ' + port);
 });
 
 
 
-appnf.listen(2000, function(){
+appnf.listen(15002, function(){
 	console.log('Server started at: ' + port);
 });
 
+
+appts.listen(15001, function(){
+	console.log('Server started at: ' + port);
+});
 
 
 //Midleware that sets the isAuthenticated variable in all views
@@ -154,6 +200,14 @@ appnf.use(function(request, response, next){
 	response.locals.isAuthenticated = request.isAuthenticated();
 	next();
 });
+
+
+appts.use(function(request, response, next){
+	response.locals.user = request.user;
+	response.locals.isAuthenticated = request.isAuthenticated();
+	next();
+});
+
 
 
 
@@ -211,3 +265,22 @@ appnf.use('/participantes', require('./controllers/controllers-nf/participantes.
 
 appnf.use('/feedback', require('./controllers/controllers-nf/feedback.route'));
 appnf.use('/public', express.static('public/public-nf'));
+
+/* ------------------------------------------------------- */
+
+appts.use('/', require('./controllers/controllers-ts/index-frontend.route'));
+appts.use('/public', express.static('public/public-ts'));
+
+
+appts.use('/gestao', require('./controllers/index-backend.route'));
+appts.use('/login', require('./controllers/login.route'));
+appts.use('/logout', require('./controllers/logout.route'));
+appts.use('/sessoes', require('./controllers/sessoes.route'));
+appts.use('/bilheteira', require('./controllers/bilheteira.route'));
+appts.use('/parametros', require('./controllers/parametros.route'));
+
+appts.use('/listagem', require('./controllers/listagens.route'));
+appts.use('/patrocinador', require('./controllers/patrocinador.route'));
+appts.use('/colaborador', require('./controllers/colaborador.route'));
+appts.use('/speaker', require('./controllers/speaker.route'));
+appts.use('/profile', require('./controllers/profile.route'));
