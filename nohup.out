@@ -2802,3 +2802,114 @@ SELECT * from  dwpt_nortephotography.users where username='vitor'
 Server started at: 3000
 Server started at: 3000
 Server started at: 3000
+[33m[nodemon] 1.14.12[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+error: Could not read .foreverignore file.
+error: ENOENT: no such file or directory, open '/home/dwpt/etc/d4w.pt/d4w/.foreverignore'
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: watch /home/dwpt/etc/d4w.pt/d4w/node_modules/gentelella/vendors/parsleyjs/dist/i18n/sv.extra.js ENOSPC
+    at _errnoException (util.js:1024:11)
+    at FSWatcher.start (fs.js:1374:19)
+    at Object.fs.watch (fs.js:1400:11)
+    at createFsWatchInstance (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:37:15)
+    at setFsWatchListener (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:80:15)
+    at FSWatcher.NodeFsHandler._watchWithNodeFs (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:228:14)
+    at FSWatcher.NodeFsHandler._handleFile (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:255:21)
+    at FSWatcher.<anonymous> (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:473:21)
+    at FSReqWrap.oncomplete (fs.js:153:5)
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+error: Could not read .foreverignore file.
+error: ENOENT: no such file or directory, open '/home/dwpt/etc/d4w.pt/d4w/.foreverignore'
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: watch /home/dwpt/etc/d4w.pt/d4w/node_modules/gentelella/vendors/parsleyjs/dist/i18n/sv.extra.js ENOSPC
+    at _errnoException (util.js:1024:11)
+    at FSWatcher.start (fs.js:1374:19)
+    at Object.fs.watch (fs.js:1400:11)
+    at createFsWatchInstance (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:37:15)
+    at setFsWatchListener (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:80:15)
+    at FSWatcher.NodeFsHandler._watchWithNodeFs (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:228:14)
+    at FSWatcher.NodeFsHandler._handleFile (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:255:21)
+    at FSWatcher.<anonymous> (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:473:21)
+    at FSReqWrap.oncomplete (fs.js:153:5)
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+error: Could not read .foreverignore file.
+error: ENOENT: no such file or directory, open '/home/dwpt/etc/d4w.pt/d4w/.foreverignore'
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+server started
+Server started at: 3000
+Server started at: 3000
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+error: restarting script because change changed
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: watch /home/dwpt/etc/d4w.pt/d4w/node_modules/gentelella/vendors/parsleyjs/dist/i18n/sv.extra.js ENOSPC
+    at _errnoException (util.js:1024:11)
+    at FSWatcher.start (fs.js:1374:19)
+    at Object.fs.watch (fs.js:1400:11)
+    at createFsWatchInstance (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:37:15)
+    at setFsWatchListener (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:80:15)
+    at FSWatcher.NodeFsHandler._watchWithNodeFs (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:228:14)
+    at FSWatcher.NodeFsHandler._handleFile (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:255:21)
+    at FSWatcher.<anonymous> (/home/dwpt/.nvm/versions/node/v8.9.1/lib/node_modules/forever/node_modules/chokidar/lib/nodefs-handler.js:473:21)
+    at FSReqWrap.oncomplete (fs.js:153:5)
