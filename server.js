@@ -26,10 +26,6 @@ var helmet = require('helmet')
 const https = require("https"),
   fs = require("fs");
 
-const options = {
-  key: fs.readFileSync("../../../ssl/keys/d2c04_12877_55d2d9671664763308e2c75a86b06bcf.key"),
-  cert: fs.readFileSync("../../../ssl/certs/d4w_pt_d2c04_12877_1549135638_5af8d66c3674c165fb5ef79b2bbcd50b.crt")
-};
 
 
 appnf.use(helmet());
