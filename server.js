@@ -197,12 +197,12 @@ app.listen(15000, function(){
 
 
 
-appnf.listen(15002, function(){
+appnf.listen(15001, function(){
 	console.log('Server started at: ' + port);
 });
 
 
-appts.listen(15001, function(){
+appts.listen(15002, function(){
 	console.log('Server started at: ' + port);
 });
 
