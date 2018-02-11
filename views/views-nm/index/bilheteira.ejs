@@ -1,0 +1,108 @@
+<% include partials/header %>
+
+	
+	
+
+	
+	
+    <section class="panel-login text-center" >
+	
+	  
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <div class="container">
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+					
+				<ul class="event-list">
+					<% for (var u of dia) { %>
+						
+							<% if (isAuthenticated) {%>
+					<li>
+						
+							
+						
+								
+						
+							
+									<time >
+					
+										<span class="month"><%= u.dia.toLocaleDateString() %></span>
+									</time>
+						<div class="info" >  
+								
+						   <form style="text-align: left;" action="/compra" method="post">
+							<input type="hidden" name="user" value="<%= user.username %>">
+							<input type="hidden" name="dia" value="<%= u.dia.toLocaleDateString() %>">
+							<input type="hidden" name="limite" value="<%= u.limite %>">
+							<input type="hidden" name="adquirido" value="<%= u.adquirido %>">
+						
+							
+															<% if (errors.length) { %>  
+															   <div class="alert alert-danger">
+																   <ul>
+																   <% for (var e of errors) { %>
+																	   <li><%= e.msg %></li>
+																   <% }%>
+																   </ul>
+															   </div>	
+														   <% } %>
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							<label>Numero de Bilhetes :</label><input type="number" name="numero" style="width: 40px" value="1" min="0">
+							&nbsp&nbsp&nbsp&nbsp
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							<span>Preço bilhete: </span><span ><%= u.preco_bilhete %>$</span>
+							<input name="preco_bilhete" id="preco_bilhete" type="hidden" value="<%= u.preco_bilhete %>">
+							<br>
+							<button class="btn btn-compra "  type="submit" > comprar bilhete</button>
+							
+					
+					</form>
+						
+					
+						
+								
+								 
+							
+						</div>
+						
+
+					
+					</li>
+					
+					
+					
+
+									<% } %>
+									<% } %>
+				</ul>
+								
+			</div>
+		</div>
+	</div>
+
+	 
+
+    </section>
+
+
+<div class="modal fade product_view" id="product_view">
+    <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Informação do evento</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+		  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>	
+    
+<% include partials/footer %>
+		

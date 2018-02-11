@@ -1,0 +1,175 @@
+<% include partials/header %>
+<nav class="navbar-default navbar-side" role="navigation">
+<div class="sidebar-collapse">
+<ul class="nav" id="main-menu">
+<li class="text-center">
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+   
+        <ul class="nav nav-second-level">
+           
+            <li>
+                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                    <li>
+                        <a href="/patrocinio">Patrocínios</a>
+                    </li>
+                    <li>
+                        <a href="/speaker   ">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="/colaborador">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a href="/participante">Participantes</a>
+                    </li>
+                    <li>
+                        <a class="active-menu"   href="/sessoes">Sessões</a>
+                    </li>
+                    <li>
+                            <a    href="/dia">Dias</a>
+                        </li>
+
+                </ul>
+               
+            </li>
+        </ul>
+    </li> 
+    
+   
+     <li>
+        <a href="info"><i class="fa fa-desktop fa-3x	"></i> Informações do Workshop</a>
+    </li>
+      <li>
+      
+</ul>
+
+</div>
+
+</nav>  
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" >
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+     <h2>Sessões</h2>   
+        
+       
+    </div>
+</div>
+ <!-- /. ROW  -->
+ <hr />
+ <div class="row">   
+      
+                                  
+                      
+    
+<div class="col-md-6" >                     
+    <div class="panel panel-default">
+        <div class="panel-heading">
+           Sessões
+        </div>
+        <form role= "form" action="/sessoes/sessao"  method="post">
+        <div class="form-group">
+                <div >
+                        <% if (errors.length) { %>  
+                           <div class="alert alert-danger">
+                               <ul>
+                               <% for (var e of errors) { %>
+                                   <li><%= e.msg %></li>
+                               <% }%>
+                               </ul>
+                           </div>	
+                       <% } %></div>
+                            <h5>Título da Sessão: </h5>
+                            <input name="titulo_sessao" id="titulo_sessao" class="form-registos" />
+                            <h5>Dia: </h5>
+                            <% for (var u of dia) { %>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="dia_sessao" id="dia_sessao" value="<%=  u.dia.toLocaleDateString() %>"><%= u.dia.toLocaleDateString() %>
+                            <% } %>
+                            <h5>Descrição da Sessão:  </h5>
+                            <textarea rows="4" cols="32" name="descricao_sessao" id="descricao_sessao"></textarea>
+                            <h5>Speaker:  </h5>
+                            <% for (var u of speaker) { %>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="radio" name="id_speaker" id="id_speaker" value="<%= u.id_speaker %>" ><%= u.nome_speaker %> 
+                            <% } %>
+                            </br>
+                            <h5>Hora da Sessão:  </h5>
+                            <input type="time" name="hora_sessao" id="hora_sessao">
+                            <input type="time" name="hora_fim" id="hora_fim">
+                            
+                           <!-- <button type="submit" class="btn btn-submit" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>-->
+                        </div>
+        
+        </form>
+        
+    </div>            
+</div>
+<div class="col-md-6"> 
+            
+        <div class="table-responsive">          
+            <table class="table" id="Table">
+            <thead>
+            <tr>   
+                <th>Título</th> 
+                <th>Dia</th>    
+                <th>Hora Inicio</th>  
+                <th>Hora Fim</th>  
+           
+                                
+                                      
+            </tr>
+            </thead>
+            <tbody>
+                <% for (var u of sessao) { %>       
+                    <tr>
+                        <td><%= u.titulo_sessao %></td>
+                        <td><%= u.dia_sessao.toLocaleDateString() %></td>
+                        <td><%= u.hora_sessao %></td>
+                        <td><%= u.hora_fim %></td>
+                       
+                        
+                   
+                    </tr>
+                    <%} %>      
+            </tbody>
+            </table>
+            
+            
+            </div>
+    
+    </div>
+
+
+      
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- /. ROW  -->
+
+
+</div>
+<!-- /. PAGE INNER  -->
+<h3> </h3>
+</div>
+<!-- /. PAGE WRAPPER  -->
+<% include partials/footer %>

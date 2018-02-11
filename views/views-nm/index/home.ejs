@@ -1,0 +1,145 @@
+<% include partials/header %>
+
+
+    <section class="masthead  text-center">
+      <div class="container">
+        <div class="row h-100">
+	
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">NORTHMUSIC   </h1>
+             
+              <p class="mb-5">VENHA APRENDER COM OS MELHORES! </p>
+              <a href="login" class="btn btn-outline btn-xl js-scroll-trigger">Compre aqui o seu bilhete!!</a>
+            </div>
+        
+		</div> 
+      </div>
+	  
+    </section>
+    <ul class="speaker " id="speaker">
+        <h2>Speakers</h2>
+         <% for (var u of speaker) { %>
+          
+     
+          <li class="transition">
+            <div class="wrapper">
+
+              <img class="mx-auto rounded-circle" src="/public/img/<%= u.nome_speaker %>.jpg" height="170" width="170">
+              <h3><%= u.nome_speaker %>  </h3>
+               </div>
+          </li>
+          <% }%>
+        </ul>
+
+<!--
+    <section class="cta" id="cta">
+      <div class="container">
+        <div class="row ">
+		<div class="col-lg-12 my-auto">
+		<h1>Workshop de Guimarães, o que é?</h1>
+		</div>
+		<div class="col-lg-12 card my-auto">
+          
+			  <p>ppp</p>
+		</div>
+		</div>
+		</div>
+      </div>
+    </section>
+  -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+
+
+<ul class="equipa " id="equipa">
+<h2>A Nossa Equipa</h2>
+  <li class="transition">
+    <div class="wrapper"> <img class="more-about" src="/public/img/power.jpg">
+      <ul class="social">
+        <li class="transition"><a href="https://www.facebook.com/fi.barra98">FACEBOOK</a></li>
+
+      </ul>
+      <img class="mx-auto rounded-circle" src="/public/img/filipe3.jpg" alt="filipe" height="120" width="120">
+      <h3 class="transition" style="padding-top: 10px">Filipe Barra <em>Web Developer e Aluno de MIEGSI</em></h3>
+      <span class="transition">
+      <div class="text-wrapper transition">
+        <p> Aluno de MIEGSI PL segundo ano. </p>
+      </div>
+      </span> </div>
+  </li>
+  <!--<li class="transition">
+    <div class="wrapper"> <img class="more-about" src="/public/img/power.jpg">
+      <ul class="social">
+       <li class="transition" ><a href="https://www.facebook.com/mario.ribeiro97">FACEBOOK</a></li>
+      </ul>
+      <img class="mx-auto rounded-circle" src="/public/img/mario1.jpg" alt="mario" height="120" width="120">
+      <h3 class="transition"  style="padding-top: 10px">Mário Ribeiro <em>Web Developer | Aluno de MIEGSI</em></h3>
+      <span class="transition">
+      <div class="text-wrapper transition">
+        <p> Aluno de MIEGSI PL segundo ano. </p>
+      </div>
+      </span> </div>
+  </li>-->
+</ul>
+
+
+<section class="patrocinio text-center" >
+  <div class="container">
+      <h2 style="color: white">Patrocínios</h2>
+    <div class="row">
+        
+      <% for (var u of patrocinio) { %>
+        <div class="col-md-4">
+        <h1><%= u.nome_patrocinio %></h1>
+    <img src="./public/img/<%= u.nome_patrocinio %>.jpg" height="auto" width="auto" >
+  </div>
+    <% }%>
+</div> 
+</div> 
+   </section>
+   <section class="mapa text-center" >
+      <div class="container">
+       <h1>Localização</h1>
+       <h5>Universidade do Minho - Campus de Azurém</h5>
+       <div id="googleMap" style="width:100%;height:400px;"></div>
+       
+       <script>
+       function myMap() {
+     var local = {lat: 41.450945, lng:  -8.2929927};
+           var map = new google.maps.Map(document.getElementById('googleMap'), {
+             zoom: 16,
+             center: local
+           });
+           var marker = new google.maps.Marker({
+             position: local,
+             map: map
+           });
+   
+       var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+       }
+       </script>
+       
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByXAIILKz4TEFmwPSB7DmOI8hRre--TKY&callback=myMap"></script>
+     
+   </div> 
+       </section>
+
+
+<% include partials/footer %>
+		
+		
+		
+
+    

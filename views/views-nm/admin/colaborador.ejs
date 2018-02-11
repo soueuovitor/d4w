@@ -1,0 +1,214 @@
+<% include partials/header %>
+<nav class="navbar-default navbar-side" role="navigation">
+<div class="sidebar-collapse">
+<ul class="nav" id="main-menu">
+<li class="text-center">
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+   
+        <ul class="nav nav-second-level">
+        
+            <li>
+                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                    <li>
+                        <a href="/patrocinio">Patrocinios</a>
+                    </li>
+                    <li>
+                        <a href="/speaker">Speakers</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="/colaborador">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a href="/participante">Participantes</a>
+                    </li>
+                    <li>
+                        <a href="/sessoes">Sessões</a>
+                    </li>
+                    <li>
+                            <a   href="/dia">Dias</a> 
+                        </li>
+
+                </ul>
+               
+            </li>
+        </ul>
+    </li> 
+    
+  
+     <li>
+        <a href="info"><i class="fa fa-desktop fa-3x	"></i> Informações workshop</a>
+    </li>
+      <li>
+      
+</ul>
+
+</div>
+
+</nav>  
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" >
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+     <h2>Colaboradores</h2>   
+        
+       
+    </div>
+</div>
+ <!-- /. ROW  -->
+ <hr />
+ <div class="row">    
+     
+    
+    <div class="col-md-12 text-center"> 
+    <div class="table-responsive">          
+        <table class="table" id="Table"> 
+        <thead>
+        <tr>   
+            <th>Username</th> 
+            <th>Nome</th> 
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Função</th>  	
+            <th>NIF</th>		
+            <th>Salário</th>	
+            <th>Tipo</th>	
+           					   
+        </tr>
+        </thead>
+        <tbody>
+            <% for (var u of colaborador) { %>       
+                <tr>
+                    <td><!--<a href="/colaborador/<%= u.user_colaborador %>"> --><%= u.user_colaborador %></a></td>
+                    <td><%= u.nome_colaborador %></td>
+                    <td><%= u.email_colaborador %></td>
+                    <td><%= u.telefone_colaborador %></td>
+                    <td><%= u.funcao_colaborador %></td>
+                    <td><%= u.nif_colaborador %></td>
+                    <td><%= u.salario_colaborador %></td>
+                    <td><%= u.tipo_colab %></td>
+               
+                </tr>
+                <%} %>      
+        </tbody>
+        </table>
+       
+        </div>
+    </br>
+       <span class="text-center" style="font-size: 250%">Número total de Colaboradores: </span>
+        <span style="font-size: 250%" id="cont"></span>
+        
+</div> 
+</div>
+<div class="col-md-12">                     
+    <div class="panel panel-default">
+        <div class="panel-heading">
+           Colaborador
+        </div>
+        <div class="panel-body">
+            
+        <button  id="btn-tipo" type="submit" class="btn btn-submit" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspColaborador Tipo&nbsp&nbsp <span class="glyphicon glyphicon-user"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+       
+          
+        <div class= "row">
+            <div id="wrapper">
+</div>
+
+<form role= "form" action="/colaborador/colab" method="post"  >	
+        <div class="col-md-6"> 
+
+         
+        <div class="form-group" >
+                <div >
+                        <% if (errors.length) { %>  
+                           <div class="alert alert-danger">
+                               <ul>
+                               <% for (var e of errors) { %>
+                                   <li><%= e.msg %></li>
+                               <% }%>
+                               </ul>
+                           </div>	
+                       <% } %></div>
+                <div id="tipoVol"> <h5>Tipo: Voluntário </h5></div>
+                <div id="tipoPago" style= "display: none"> <h5>Tipo: Pago </h5></div>
+                            <h5>Username: </h5>
+                            <input name="user_colaborador" id="user_colaborador" class="form-registos" />
+                            <h5>Nome do colaborador: </h5>
+                            <input name="nome_colaborador" id="nome_colaborador" class="form-registos" />
+                            <h5>Email:  </h5>
+                            <input name="email_colaborador" id="email_colaborador" class="form-registos" />
+                            <h5>Telefone:  </h5>
+                            <input name="telefone_colaborador" id="telefone_colaborador" class="form-registos-sm" />
+                            
+                            
+                        </div>
+        
+                        
+        </div>
+        
+        <div class="col-md-6"> 
+                <h5>Função:  </h5>
+                <input name="funcao_colaborador" id="funcao_colaborador" class="form-registos" />
+                <h5>Password:  </h5>
+                <input type="password" name="password_colab" id="password_colab" class="form-registos-sm" />
+                <input  type="hidden"id="tipo_colab" name="tipo_colab" class="form-registos-sm" value="Voluntario"/>
+               
+                
+         
+        <div id="pago" class="form-group"  style= "display: none">
+                            <h5>Nif:  </h5>
+                            <input name="nif_colaborador" id="nif_colaborador" class="form-registos-sm" value="0"/>
+                            
+                            <input type="hidden" name="salario_colaborador" id="salario_colaborador" class="form-registos-sm" value="0" />
+                            
+                            
+                        </div>
+        
+        
+        
+        </div>
+         <!--<button type="submit" class="btn btn-submit" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button> -->
+    </form>
+        
+        
+    </div> 
+    
+    
+    </div>
+</div>					
+</div>
+
+
+
+      
+
+</div>
+<div class="row">                     
+      
+    
+
+
+
+      
+
+</div>
+<div class="row">
+
+
+
+
+</div>
+ 
+ 
+ <!-- /. ROW  -->
+
+
+</div>
+<!-- /. PAGE INNER  -->
+<h3> </h3>
+</div>
+<!-- /. PAGE WRAPPER  -->
+<% include partials/footer %>

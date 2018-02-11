@@ -1,0 +1,160 @@
+<% include partials/header %>
+<nav class="navbar-default navbar-side" role="navigation">
+<div class="sidebar-collapse">
+<ul class="nav" id="main-menu">
+<li class="text-center">
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+   
+        <ul class="nav nav-second-level">
+           
+            <li>
+                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                    <li>
+                        <a href="/patrocinio">Patrocínios</a>
+                    </li>
+                    <li>
+                        <a href="/speaker   ">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="/colaborador">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a href="/participante">Participantes</a>
+                    </li>
+                    <li>
+                        <a href="/sessoes">Sessões</a>
+                    </li>
+                    <li>
+                            <a class="active-menu"   href="/dia">Dias</a>
+                        </li>
+
+                </ul>
+               
+            </li>
+        </ul>
+    </li> 
+    
+ 
+     <li>
+        <a href="info"><i class="fa fa-desktop fa-3x	"></i> Informações do Workshop</a>
+    </li>
+      <li>
+      
+</ul>
+
+</div>
+
+</nav>  
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" >
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+     <h2>Sessões e Dias</h2>   
+        
+       
+    </div>
+</div>
+ <!-- /. ROW  -->
+ <hr />
+ <div class="row">    
+
+    <div class="col-md-6"> 
+            
+    <div class="table-responsive">          
+        <table class="table" id="Table">
+        <thead>
+        <tr>   
+            <th>Dia</th> 
+            <th>Preço</th>    
+       
+            				
+           					   
+        </tr>
+        </thead>
+        <tbody>
+            <% for (var u of dia) { %>       
+                <tr>
+                    <td><%= u.dia.toLocaleDateString() %></td>
+                    <td><%= u.preco_bilhete %></td>
+                   
+                    
+               
+                </tr>
+                <%} %>      
+        </tbody>
+        </table>
+        
+        
+        </div>
+
+</div>
+</br>
+<div class="col-md-6">                     
+        <div class="panel panel-default">
+            <div class="panel-heading">
+               Registo do dia 
+            </div>
+            <form role= "form" id= "register-form-patrocinio" action="/dia/diacreate"  method="post">
+            <div class="form-group">
+                                <h5>Dia: </h5>
+                                
+                                <input type="date" name="dia" id="dia" > 
+                                <h5>Preco bilhete: </h5>
+                                <input type="text" name="preco_bilhete" id="preco_bilhete" value="10" class="form-registos-sm"  >
+                                <h5>Limite </h5>
+                                <input type="text" name="limite" id="limite"  class="form-registos-sm" value="100" >
+                          
+                               
+            <!-- <button type="submit" class="btn btn-submit">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button> -->
+                            </div>
+            
+            </form>
+            
+        </div>            
+    </div> 
+</div>
+<div class="row">                     
+      
+
+</div>
+<div class="row">
+
+
+
+
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- /. ROW  -->
+
+
+</div>
+<!-- /. PAGE INNER  -->
+<h3> </h3>
+</div>
+<!-- /. PAGE WRAPPER  -->
+<% include partials/footer %>

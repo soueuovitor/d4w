@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - New Age v4.0.0-beta (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ */
+html,
+
+
+a {
+  color: #fdcc52;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+
+
+
+
+
+
+
+section.panel-login {
+  position: relative;
+  }
+   
+
+
+.bg-primary {
+  background: #777b80;
+  background: -webkit-linear-gradient(#777b80, #777b80);
+  background: linear-gradient(#777b80, #777b80);
+	background: url("../img/music7.jpg");  }
+.bg-equipa {
+
+	background: url("../img/music2.jpg");  }
+.text-primary {
+  color: #777b80; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+/*
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white; }
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: black;
+    border-color: #fdcc52;
+    background-color: #fdcc52; }
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px; }
+  */
+  
+  
+ 
+ 
+  
+
+h1 {
+	margin:100px;
+	color:  rgb(255, 255, 255);
+}
+.panel-login{
+	height: 667px;
+	
+}
+
+
+
+
+
+.btn-login {
+	background-color:  #777b80;
+	color: black;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+
+	
+}
+
+.forgot-password {
+	text-decoration: underline;
+	color: black;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color:  #777b80;
+	outline: none;
+	color: black;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+
+}
+
+
+
+#success_message{ display: none;}
+
+
+
+
+

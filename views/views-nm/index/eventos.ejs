@@ -1,0 +1,125 @@
+<% include partials/header %>
+
+	<script>
+$("#toggle").on("click", function(){
+	$("#content").toggle();                 // .fadeToggle() // .slideToggle()
+  });
+	</script>
+	
+
+	
+
+    <section id="eventos"class="panel-login text-center" >
+		
+			
+			<div class="container">
+				
+					<% for (var u of dia) { %>
+				  
+				  <a style="color:rgb(255, 255, 255); margin: 10px" href="#<%= u.dia.toLocaleDateString() %>"><%= u.dia.toLocaleDateString() %></a>
+				  <% } %>
+				  
+				</div>
+					
+				
+
+
+
+	
+	  
+    
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	
+   <div class="container">
+		<div class="row">
+				
+			<!--  iniciar aqui o ciclo for do dia-->
+			<div class="col-md-8 mx-auto">
+				
+				
+							
+							<% for (var s of sessao) { %>
+							<ul  class="event-list" id="<%= s.dia_sessao.toLocaleDateString() %>">		
+									
+
+										</i>	
+							
+					<li>
+						<time >
+					
+							<span class="month"><%= s.dia_sessao.toLocaleDateString() %></span>
+						</time>
+						<div class="info">	
+							<h2 class="title"><%= s.titulo_sessao %></h2><span></span>
+							
+							<% for (var k of speaker) { %>
+								<% if (s.id_speaker === k.id_speaker) {%>
+							<div class="row ">
+								<div class="col-md-5 " style="margin-left: 20px;  text-align: center;">
+									<span class="speakerSpeaker" >Speaker:  </span>	<span class="speaker" ><%= k.nome_speaker %></span>
+									</br><img  style="margin-left: 50px;" class="mx-auto rounded-circle " src="/public/img/<%= k.nome_speaker %>.jpg" height="100" width="100">
+									</div>
+									<div class="col-md-5 " style="margin-top: 25px; margin-left: 90px;">
+									<span class="speakerTitulo" >Hora de inicio da sessão: &nbsp&nbsp </span><span><%= s.hora_sessao %> </span>
+									</br>
+									</br><span class="speakerTitulo" >Hora de Fim da sessão: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span><span><%= s.hora_fim %> </span>
+									</div>
+									</div>
+									<% } %>
+									<% } %>
+							   
+							
+							<ul>
+							 
+								
+							
+									<li style="width:50%;"> <span data-toggle="modal" data-target="#<%= s.id_sessao %>"><i class="fa fa-search"></i>More info</span></li>
+								
+							</ul>
+						</div>
+						<!--<div class="social">
+							<ul>
+								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+							</ul>
+						</div> -->
+					</li>
+					
+				</ul>
+					<% } %>
+					
+				
+					
+				
+			</div>
+	
+		</div>
+	</div>
+
+
+
+	
+
+    </section>
+
+	<% for (var s of sessao) { %>
+<div class="modal fade product_view" id="<%= s.id_sessao %>">
+    <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Informação do evento</h4>
+        </div>
+        <div class="modal-body">
+          <p><%= s.descricao_sessao %></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>		<% } %>	
+    
+<% include partials/footer %>
+		

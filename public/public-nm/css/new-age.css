@@ -1,0 +1,554 @@
+/*!
+ * Start Bootstrap - New Age v4.0.0-beta (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ */
+html,
+
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+body {
+    
+	background: url("../img/music14.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a {
+  color: #fdcc52;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(255, 254, 254, 0.1); }
+
+hr.light {
+  border-color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px; }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px; }
+
+section {
+  padding: 100px 0 ; 
+  }
+  section h2 {
+    font-size: 50px; }
+
+#mainNav { 
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: rgba(128, 125, 125, 0.788); /* cor da barra */
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px; }
+  #mainNav .navbar-brand {
+    color: #f8f8f8;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: #ffffff; }
+  #mainNav .navbar-nav > li > a {
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    #mainNav .navbar-nav > li > a.active {
+      color: #ffffff !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li > a.active:hover {
+        background-color: transparent; }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgb(255, 255, 255); }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: #74a9f8; }
+	 /* @media (min-width: 992px) {
+    #mainNav {
+      border-color: transparent;
+      background-color: transparent; }
+      #mainNav .navbar-brand {
+        color: fade(white, 70%); }
+        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+          color: white; }
+      #mainNav .navbar-nav > li > a,
+      #mainNav .navbar-nav > li > a:focus {
+        color: rgba(255, 255, 255, 0.7); }
+        #mainNav .navbar-nav > li > a:hover,
+        #mainNav .navbar-nav > li > a:focus:hover {
+          color: white; }
+      #mainNav.navbar-shrink {
+        border-color: rgba(34, 34, 34, 0.1);
+        background-color: white; }
+        #mainNav.navbar-shrink .navbar-brand {
+          color:  black; }
+		  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+            color:#fdcc52; }
+        #mainNav.navbar-shrink .navbar-nav > li > a,
+        #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+          color: #222222; }
+          #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+          #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+            color: #fdcc52; } }
+*/
+		/* header*/
+section.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: rgb(255, 255, 255);
+
+ }
+  section.masthead .header-content {
+    margin-top: 100px;
+	  max-width: 50000px;
+    margin-bottom: 100px;
+    text-align: center;
+   }
+  
+
+
+/*section.home {
+  position: relative;
+  padding: 150px 0; }
+  section.home h2 {
+    font-size: 50px;
+    margin-top: 0; }
+  section.home .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }
+    section.home .badges .badge-link:last-child {
+      margin-bottom: 0; }
+    section.home .badges .badge-link img {
+      height: 60px; }
+
+*/
+
+
+
+	/* information*/
+	
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/music12.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+  section.cta  h1{
+	position: relative;
+	color:rgb(255, 250, 250);
+	
+    text-align: center;
+  }
+  section.cta  .card p{
+	position: relative;
+	color:black;
+	max-width: 1000px;
+    text-align: center;
+  }	
+  section.cta  .card {
+    height:150px;
+    overflow:auto;
+	 opacity: 0.5;
+	
+}
+  @media (min-width: 768px) {
+      section.cta  h1 {
+        font-size: 50px; } 
+	
+		}
+
+   /* section.cta .cta-content h2 {
+      font-size: 50px;
+      
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: blue; }
+    @media (min-width: 768px) {
+      section.cta .cta-content h2 {
+        font-size: 300px; } }
+  section.cta .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+*/
+		/*    dkshkdshkshksd*/
+		
+		/*Eventos*/
+	
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+
+        .product_view .modal-dialog{max-width: 800px; width: 100%;}
+        
+		
+		
+		
+		
+		
+		
+	/* equipa*/	
+		
+.equipa {
+
+padding: 75px 0; 
+list-style: none;
+text-align: center;
+}
+.equipa h2{
+	color: rgb(255, 255, 255);
+	line-height: 200%;
+}
+.equipa > li {
+	
+  background: #FFFFFF;
+
+  width: 250px;
+  height: 350px;
+  display: inline-block;
+  margin: 0 50px;
+  text-align: center;
+}
+.equipa > li img {
+  margin-top: -5px;
+}
+.equipa > li:hover img {
+  margin-top: 30px;
+}
+.equipa > li img.more-about {
+  left: 103px;
+  padding: 1px;
+  position: absolute;
+  width: 45px;
+  z-index: 1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  bottom: 50px;
+}
+.equipa > li:hover {
+  -moz-box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(103,85,85,0.25);
+}
+.equipa > li:hover span {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  top: -300px;
+  background-image: url("../img/music17.jpg"); /*imagem da descricaao */
+}
+.equipa > li:hover span p {
+  color: white;
+  font-size: 14px;
+}
+.equipa > li span .text-wrapper {
+  opacity: 0;
+}
+.equipa > li:hover span .text-wrapper {
+  bottom: 20px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  opacity: 1;
+}
+.equipa > li:hover .social {
+  margin-top: 250px;
+}
+.equipa > li:hover .wrapper > img {
+  display: none;
+}
+.equipa > li:hover h3 {
+  color: rgb(19, 50, 224);
+  margin-top: -105px;
+}
+.equipa > li .wrapper {
+  overflow: hidden;
+  position: absolute;
+  width: 250px;
+  height: 350px;
+}
+.equipa > li span {
+  display: block;
+  height: 500px;
+  left: -125px;
+  position: absolute;
+  top: -490px;
+  width: 500px;
+  background-image: url("../img/music17.jpg");
+}
+.equipa .mamber-img {
+  width: 100px;
+}
+
+.equipa > li h3 em {
+  display: block;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+ margin-top: 10px;
+ color: rgb(19, 50, 224);
+}
+.equipa .social {
+  list-style: none;
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+.equipa .social li {
+  opacity: 0;
+  display: inline-block;
+  padding: 5px;
+}
+.equipa > li:hover .social li {
+  opacity: 0.5;
+}
+.equipa .social li a {
+  cursor: pointer;
+  display: block;
+}
+.equipa .social li a:hover {
+  opacity: 0.5;
+}
+.equipa .social li img {
+  width: 24px;
+}
+.equipa > li:hover .social li a {
+  -webkit-animation: social-show 0.5s 1;
+  -moz-animation: social-show 0.5s 1;
+  -o-animation: social-show 0.5s 1;
+  animation: social-show 0.5s 1;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.equipa .social li img {
+  width: 24px;
+}
+
+/*  sdsagdshgdsajkhsadkjahgssgsakjhgdsjakh*/
+
+
+
+
+
+
+
+
+footer {
+  position: fixed ;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+  z-index: 2000; }
+ 
+  footer p {
+    font-size: 12px;
+    margin: 0; }
+  footer ul {
+    margin-bottom: 0; }
+    footer ul li a {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.3); }
+    
+
+
+
+.text-primary {
+  color: #74a9f8; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white; }
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: black;
+    border-color: #74a9f8;
+    background-color: #74a9f8; }
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px; }
+
+  .btn-registo{
+    margin: 10px;;
+    background-color: #74a9f8;
+  }
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    margin: 10px;;
+    background-color: #74a9f8;
+    text-decoration: none;
+    color: initial;
+}
+
+
+
+  section.patrocinio{
+    position: relative;
+
+    /*background-image: url("../img/music12.jpg");*/
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 75px 0; 
+    list-style: none;
+    text-align: center;
+
+  }
+
+    section.patrocinio  h1{
+    position: center;
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+
+    }
+    section.patrocinio  img{
+      height: 200px;
+      }
+      section.mapa{
+        background-image: url("../img/music17.jpg");
+
+      }
+      section.mapa h5{
+        color: white;
+        
+      }
+
+
+
+
+      .speaker {
+        position: relative;
+
+    /*background-image: url("../img/music12.jpg");*/
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 75px 0; 
+    list-style: none;
+    text-align: center;
+        }
+        .speaker h2{
+          color: rgb(250, 250, 250);
+          line-height: 200%;
+        }
+        .speaker > li {
+         
+          width: 230px;
+          height: 230px;
+          display: inline-block;
+          margin: 0 50px;
+          text-align: center;
+        }
+       
+      
+        .speaker > li h3 {
+          display: center;
+          font-style: normal;
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 30px;
+         margin-top: 5px;
+         color: rgb(243, 241, 241);
+         text-align: center´;
+        }
+        .speaker > li > img {
+          border: 5;
+          
+        }
+       
+       
+        
+        /*  sdsagdshgdsajkhsadkjahgssgsakjhgdsjakh*/
+        
+  
+
+  
+
+  
+  
+ 
+ 
+  
+
+		

@@ -1,0 +1,161 @@
+<% include partials/header %>
+<nav class="navbar-default navbar-side" role="navigation">
+<div class="sidebar-collapse">
+<ul class="nav" id="main-menu">
+<li class="text-center">
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+   
+        <ul class="nav nav-second-level">
+           
+            <li>
+                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                    <li>
+                        <a class="active-menu" href="/patrocinio">Patrocínios</a>
+                    </li>
+                    <li>
+                        <a href="/speaker">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="/colaborador">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a href="/participante">Participantes</a>
+                    </li>
+                    <li>
+                        <a  href="/sessoes">Sessões</a>
+                    </li>
+                    <li>
+                            <a   href="/dia">Dias</a>
+                        </li>
+
+                </ul>
+               
+            </li>
+        </ul> 
+    </li> 
+    
+
+     <li>
+        <a href="/info"><i class="fa fa-desktop fa-3x	"></i> Informações do Workshop</a>
+    </li>
+      <li>
+      
+</ul>
+
+</div>
+
+</nav>  
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" >
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+     <h2>Patrocínios</h2>   
+        
+       
+    </div>
+</div>
+ <!-- /. ROW  -->
+ <hr />
+ 
+ <div class="row">    
+    <div class="col-md-6">                     
+        <div class="panel panel-default">
+            <div class="panel-heading">
+               Patrocínios
+            </div>
+
+        
+                
+           
+            <form role= "form" id= "register-form-patrocinio" action="/patrocinio/registoPat"  method="post" encType="multipart/form-data">
+            <div class="form-group">
+                    
+                    <div >  
+                            <% if (errors.length) { %>  
+                               <div class="alert alert-danger">
+                                   <ul>
+                                   <% for (var e of errors) { %>
+                                       <li><%= e.msg %></li>
+                                   <% }%>
+                                   </ul>
+                               </div>	
+                           <% } %></div>
+                                <h5>Nome do Patrocínio: </h5>
+                                <input name="nome_patrocinio" id="nome_patrocinio" class="form-registos" />
+                                <h5>Valor do Patrocínio:  </h5>
+                                <input name="valor_patrocinio" id= "valor_patrocinio" class="form-registos-sm" /><br>
+                                <input class="form-registos-sm" type="file" name="sampleFile" />
+                             <!--   <button type="submit" class="btn btn-submit"  >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button> -->
+                            </div>
+                            
+            </form>
+            
+        </div>            
+    </div>
+    
+    <div class="col-md-6"> 
+    <div class="table-responsive">          
+        <table class="table" id="Table"> 
+        <thead>
+        <tr>   
+            <th>Nome</th>  
+            <th>Valor</th>     					 
+           					   
+        </tr>
+        </thead>
+        <tbody>
+            <% for (var u of patrocinio) { %>       
+                <tr>
+                    <td><!--<a href="/patrocinio/<%= u.nome_patrocinio %>">--><%= u.nome_patrocinio %></a></td>
+                    <td><%=u.valor_patrocinio%></td>
+               
+                </tr>
+                <%} %>      
+        </tbody>
+        </table>
+        
+        </div>
+    </br>
+       
+    
+
+
+        
+
+        
+        
+        
+</div>
+</div>
+<span style="font-size: 250%">Número total de Patrocínios: </span>
+        <span style="font-size: 250%" id="cont"></span>
+<div class="row">                     
+      
+    
+
+
+
+      
+
+</div>
+<div class="row">
+
+
+
+
+</div>
+ 
+ 
+ <!-- /. ROW  -->
+
+
+</div>
+<!-- /. PAGE INNER  -->
+<h3> </h3>
+</div>
+<!-- /. PAGE WRAPPER  -->
+<% include partials/footer %>

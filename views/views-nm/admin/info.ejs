@@ -1,0 +1,307 @@
+<% include partials/header %>
+                <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+				<li class="text-center">
+                    
+					</li>
+					<li>
+                        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            
+                            <li>
+                                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="/patrocinio">Patrocínios</a>
+                                    </li>
+                                    <li>
+                                        <a href="/speaker">Speakers</a>
+                                    </li>
+                                    <li>
+                                        <a href="/colaborador">Colaboradores</a>
+                                    </li>
+									<li>
+                                        <a href="/participante">Participantes</a>
+                                    </li>
+									<li>
+										<a  href="/sessoes">Sessões</a>
+                                    </li>
+                                    <li>
+                                            <a   href="/dia">Dias</a>
+                                        </li>
+
+                                </ul>
+                               
+                            </li>
+                        </ul>
+                    </li> 
+					
+                    
+					<li>
+                        <a class="active-menu" href="info"><i class="fa fa-desktop fa-3x	"></i> Informações do Workshop</a>
+                    </li>
+                      <li>
+                  	
+                </ul>
+               
+            </div>
+            
+        </nav>  
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper" >
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                     <h2>Informações do Workshop</h2>   
+                        
+                        
+                    </div>
+                </div>
+                 <!-- /. ROW  -->
+                 <hr />
+				 <div class="row">                     
+                     
+                      <script>
+                        var dinheiroSpeaker = 0;
+                        var numSpeaker = 0;
+                        var dinheiroPatrocinio = 0;
+                        var total = 0;
+                        var dinheiroColab = 0;
+                        var totalColabPagos = 0;
+                        var totalColabVol = 0;
+                        var numPat = 0;
+                        var lucroBilheteira = 0;
+                        var bilhetes = 0;
+
+                        function totalSpeaker(){  
+                            dinheiroSpeaker = 0;
+
+                            <% for (var u of speaker) { %>
+                                
+
+                                dinheiroSpeaker = dinheiroSpeaker + <%= u.cache_speaker %>
+
+                                <% } %> 
+
+                                return dinheiroSpeaker;
+
+                        }
+                        function numeroSpeaker(){
+                            numSpeaker = 0;
+                            <% for (var u of speaker) { %>
+                                
+
+                                numSpeaker = numSpeaker + 1;
+
+                                <% } %> 
+                                return numSpeaker;
+                        }
+
+                        function totalPatrocinio(){
+                            dinheiroPatrocinio = 0;
+
+                            <% for (var u of patrocinio) { %>
+                                
+
+                                dinheiroPatrocinio = dinheiroPatrocinio + <%= u.valor_patrocinio %>
+
+                                <% } %> 
+   
+                                return dinheiroPatrocinio;
+
+                        }
+                        function numeroPatrocinio(){
+                            numPat = 0;
+
+                            <% for (var u of patrocinio) { %>
+                                
+
+                                numPat = numPat + 1;
+
+                                <% } %> 
+   
+                                return numPat;
+
+                        }
+                        function totalDinheiroColab(){  
+                            dinheiroColab = 0;
+
+                            <% for (var u of colaborador) { %>
+                                
+
+                                dinheiroColab = dinheiroColab + <%= u.salario_colaborador %>
+
+                                <% } %> 
+
+                                return dinheiroColab;
+
+                        }
+                        function numeroColabPago(){  
+                            totalColabPagos = 0;
+                          
+                            <% for (var u of colaborador) { %>
+                                
+                                <% if (u.salario_colaborador != 0 ) { %>
+                                    totalColabPagos = totalColabPagos + 1;
+                                
+
+                                
+                                <% } %> 
+                                <% } %> 
+
+                                return totalColabPagos;
+                                
+
+                        }
+                        function numeroColabVol(){  
+                          
+                            totalColabVol = 0;
+                            <% for (var u of colaborador) { %>
+                                
+                                <% if (u.salario_colaborador === 0 ) { %>
+                                    totalColabVol = totalColabVol +1;
+                                
+
+                                
+                                <% } %>  
+                                <% } %> 
+
+                                
+                                return totalColabVol;
+
+                        }
+                        function totalBilhetes(){
+                            bilhetes = 0;
+
+                            
+                            <% for (var u of bilheteira) { %>
+                                
+
+                                bilhetes = bilhetes + 1;
+
+                                <% } %> 
+
+                                return bilhetes;
+
+
+                        }
+                        function lucroBilhetes(){
+                            lucroBilheteira = 0;
+                            <% for (var u of bilheteira) { %>
+                                lucroBilheteira = lucroBilheteira + <%= u.preco_bilhete %>
+                                <% } %> 
+                                return lucroBilheteira;
+                        }
+                    
+                        
+                        function totalLucro(){
+                            total = dinheiroPatrocinio + lucroBilheteira - dinheiroSpeaker;
+
+                            $('#totaldinheiro').text("Lucro total: " + total);
+                 
+
+                        }
+                        function bilhetesTotal(){
+
+                        $('#TotalnBilhetes').text("Número total de bilhetes: " + bilhetes);
+                        }
+                        
+
+                        function start(){
+                            totalSpeaker();
+                            numeroSpeaker();
+                            totalPatrocinio();
+                            numeroPatrocinio()
+                            totalDinheiroColab();
+                            numeroColabPago();
+                            numeroColabVol();
+                            lucroBilhetes();
+                            totalLucro();
+                            totalBilhetes();
+                            salariosTotais();
+                            funcionarios();
+                            ganhos();
+                            bilhetesTotal();
+                     
+                         
+                            
+                        }
+                        window.onload = start;
+                        
+                        </script>
+
+
+
+
+
+
+                        <div class="col-md-6 col-sm-12 col-xs-12">                     
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                       Salários
+                                    </div>
+                                    
+                                    <div class="panel-body">
+                                        <div id="salariosTotais" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+                                    </div>
+                                </div>            
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">                     
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                       Total dos funcionários
+                                    </div>
+                                    <div class="panel-body">
+                                        <div id="funcionarios" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+                                    </div>
+                                </div>            
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">                     
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                       Ganhos do Workshop
+                                    </div>
+                                    <div class="panel-body">
+                                        <div id="ganhos" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+                                    </div>
+                                </div>            
+                            </div>
+                            
+                            <div class="col-md-6 col-sm-12 col-xs-12">                     
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                       Lucro Total
+                                    </div>
+                                    <div class="panel-body">
+                                        <h3 id="totaldinheiro" ></h3>
+                                    </div>
+                                </div>            
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">                     
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                       Bilhetes
+                                    </div>
+                                    <div class="panel-body">
+                                        <h3 id="TotalnBilhetes" ></h3>  
+                                    </div>
+                                </div>            
+                            </div>
+                            
+                            
+				
+				
+                    
+                
+           </div>
+				 
+                 <!-- /. ROW  -->
+                
+               
+    </div>
+             <!-- /. PAGE INNER  -->
+			 <h3> </h3>
+            </div>
+         <!-- /. PAGE WRAPPER  -->
+        <% include partials/footer %>

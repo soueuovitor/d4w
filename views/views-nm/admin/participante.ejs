@@ -1,0 +1,123 @@
+<% include partials/header %>
+<nav class="navbar-default navbar-side" role="navigation">
+<div class="sidebar-collapse">
+<ul class="nav" id="main-menu">
+<li class="text-center">
+    </li>
+    <li>
+        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Informações<span class="fa arrow"></span></a>
+   
+        <ul class="nav nav-second-level">
+           
+            <li>
+                <a href="#">Registo de informações<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                    <li>
+                        <a href="/patrocinio">Patrocínios</a>
+                    </li>
+                    <li>
+                        <a href="/speaker">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="/colaborador">Colaboradores</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="participante">Participantes</a>
+                    </li>
+                    <li>
+                        <a  href="/sessoes">Sessões</a>
+                    </li>
+                    <li>
+                            <a  href="/dia">Dias</a>
+                        </li>
+
+                </ul>
+               
+            </li>
+        </ul>
+    </li> 
+    
+  
+     <li>
+        <a href="info"><i class="fa fa-desktop fa-3x	"></i> Informações do Workshop</a>
+    </li>
+      <li>
+      
+</ul>
+
+</div>
+
+</nav>  
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" >
+<div id="page-inner">
+<div class="row">
+    <div class="col-md-12">
+     <h2>Participantes</h2>   
+        
+       
+    </div>
+</div>
+ <!-- /. ROW  -->
+ <hr />
+ <div class="row">    
+     
+    
+    <div class="col-md-12"> 
+    <div class="table-responsive">          
+        <table class="table" id="Table">
+        <thead>
+        <tr>   
+            <th>Nome</th> 
+            <th>Email</th>    
+            <th>NIF</th> 
+            				
+           					   
+        </tr>
+        </thead>
+        <tbody>
+            <% for (var u of participante) { %>       
+                <tr>
+                    <td><%= u.nome_participante %></a></td>
+                    <td><%= u.email_participante %></td>
+                    <td><%= u.nif_participante %></td>
+                    
+               
+                </tr>
+                <%} %>      
+        </tbody>
+        </table>
+        
+        
+        </div>
+    </br>
+        <span style="font-size: 250%">Número total de Participantes: </span>
+        <span style="font-size: 250%" id="cont"></span>
+    
+
+
+        </script>
+        
+</div>
+</div>
+<div class="row">                     
+      
+
+</div>
+<div class="row">
+
+
+
+
+</div>
+ 
+ 
+ <!-- /. ROW  -->
+
+
+</div>
+<!-- /. PAGE INNER  -->
+<h3> </h3>
+</div>
+<!-- /. PAGE WRAPPER  -->
+<% include partials/footer %>
