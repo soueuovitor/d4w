@@ -64,7 +64,7 @@ module.exports = {
 	},
 	//New
 	areValidCredentials(username, password, callback) {
-		var sql = "SELECT dwpt_northmusic.password FROM user WHERE username=?";
+		var sql = "SELECT password FROM dwpt_northmusic.user WHERE username=?";
 		global.connection.query(sql, [username], function(error, rows, fields){
 			if (error) throw error;
 			if (rows.length == 1 && rows[0].password === password) {

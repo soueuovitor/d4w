@@ -361,3 +361,15 @@ appts.use('/profile', require('./controllers/controllers-ts/profile.route'));
 
 appnm.use('/', require('./controllers/controllers-nm/home.route'));
 appnm.use('/public', express.static('public/public-nm'));
+appnm.use('/login', require('./controllers/controllers-nm/login.route'));
+appnm.use('/admin', require('./controllers/controllers-nm/admin.route'));
+appnm.use('/registo', require('./controllers/controllers-nm/registo.route'));
+appnm.use('/patrocinio', require('./controllers/controllers-nm/patrocinio.route'));
+appnm.use('/speaker', require('./controllers/controllers-nm/speaker.route'));
+appnm.use('/logout', require('./controllers/controllers-nm/logout.route'));
+appnm.use('/colaborador', require('./controllers/controllers-nm/colaborador.route'));
+appnm.use('/participante', require('./controllers/controllers-nm/participante.route'));
+appnm.use('/info', require('./controllers/controllers-nm/info.route'));
+appnm.use('/sessoes', require('./controllers/controllers-nm/sessoes.route'));
+appnm.use('/dia', require('./controllers/controllers-nm/dia.route'));
+
