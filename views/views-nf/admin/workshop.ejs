@@ -133,39 +133,8 @@
         </div>
 
         <script type="text/javascript">
-            function alterDia(col) {
-
-                window.location = col;
-
-            }
-
-            function deleteDia(col) {
-                
-                
-                
-             var f =   '/workshop/';
-           var  d = '/delete';
-	
-				 var c  =  col.split('/') ;
-									
-                            console.log(c);
-            
-					
-			var data = parseInt(c[2]) + '-'+ parseInt(c[0])  + '-'+ parseInt(c[1]);
-									
-		var total = f + data + d;
-									
-             
-             send(total);
-            }
-            
-            function send(col) {
-                
-                    if (confirm('Quer mesmo apagar este Dia?')) {
-                    window.location = col;
-                }
-                
-            }
+     
+           
 
        
         </script>
