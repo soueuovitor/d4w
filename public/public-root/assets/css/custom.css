@@ -232,7 +232,7 @@ img {vertical-align: middle;}
       height: auto;
   }
   .our-team .team-profile{
-      background:rgba(74, 163, 223,0.9);
+      background: #666;
       position: absolute;
       top:0;
       text-align:center;
@@ -246,12 +246,12 @@ img {vertical-align: middle;}
   }
   .our-team .team-title{
       color:#fff;
-      margin:-30px 0 0 0;
+      margin:-10px 0 0 0;
       font-weight: bold;
       transition: all 0.2s ease 0s;
   }
   .our-team:hover .team-title{
-      margin:40px 0 0 0;
+      margin-top:10px ;
   }
   .our-team .post{
       display:block;
@@ -261,11 +261,11 @@ img {vertical-align: middle;}
   }
   .our-team .description{
       color: #fff;
-      padding: 90% 2%;
+      padding: 0% 2%;
       transition: all 0.3s ease 0s;
   }
   .our-team:hover .description{
-      padding:20% 2%;
+      padding:2% 2%;
   }
   .our-team .social-links{
       background:#d7d7d7;
@@ -283,7 +283,7 @@ img {vertical-align: middle;}
       height: 30px;
       line-height: 30px;
       text-align: center;
-      background:#3498db;
+      background:#666;
       color:#fff;
       transition:all 0.30s ease 0s;
   }
