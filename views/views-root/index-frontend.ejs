@@ -1,5 +1,131 @@
 <% include partials/header-frontend %>
 
+  <style>
+    .our-team {
+      text-align: center;
+      transition: all 0.5s ease 0s;
+    }
+
+    .our-team:hover {
+      box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .our-team .pic {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .our-team .pic:before,
+    .our-team .pic:after {
+      content: "";
+      width: 200%;
+      height: 80%;
+      background: rgba(38, 37, 37, 0.8);
+      position: absolute;
+      top: -100%;
+      left: -4%;
+      transform: rotate(45deg);
+      transition: all 0.5s ease 0s;
+    }
+
+    .our-team .pic:after {
+      background: rgba(8, 75, 77, 0.8);
+      top: auto;
+      left: auto;
+      bottom: -100%;
+      right: -4%;
+    }
+
+    .our-team:hover .pic:before {
+      top: 0;
+    }
+
+    .our-team:hover .pic:after {
+      bottom: 0;
+    }
+
+    .our-team .pic img {
+      width: 100%;
+      height: auto;
+    }
+
+    .our-team .social {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      position: absolute;
+      bottom: 45%;
+      left: 0;
+      opacity: 0;
+      z-index: 2;
+      transition: all 0.5s ease 0.3s;
+    }
+
+    .our-team:hover .social {
+      opacity: 1;
+    }
+
+    .our-team .social li {
+      display: inline-block;
+    }
+
+    .our-team .social li a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      color: #fff;
+      margin-right: 10px;
+      position: relative;
+      transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #db162f;
+      border-radius: 0 20px 20px 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:hover:after {
+      transform: rotate(180deg);
+    }
+
+    .our-team .team-content {
+      padding: 20px;
+    }
+
+    .our-team .title {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #047168;
+      text-transform: uppercase;
+      margin-bottom: 7px;
+    }
+
+    .our-team .post {
+      display: block;
+      font-size: 17px;
+      font-weight: 600;
+      color: #707070;
+      text-transform: capitalize;
+    }
+
+    @media only screen and (max-width: 990px) {
+      .our-team {
+        margin-bottom: 30px;
+      }
+    }
+  </style>
   <section class="module" id="info">
     <div class="container">
       <div class="row multi-columns-row">
@@ -43,13 +169,13 @@
     </div>
   </section>
   <!-- banner  -->
-  <section class="module-small bg-dark">
+  <section class="module-small bg-dark" style="background-image: url('/public/clouds.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
           <div class="callout-text font-alt">
-            <h3 class="callout-title">Precisa de uma Web Solution?</h3>
-            <p>Nós estamos muito interessados em poder ajudar.</p>
+            <h3 class="callout-title">Quer melhorar a sua presença online?</h3>
+            <p>Fale connosco!</p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
@@ -74,9 +200,9 @@
     <div class="slideshow-container" id="slideshow">
 
       <!-- Full-width images with number and caption text -->
-      <div class="mySlides " >
+      <div class="mySlides ">
 
-          <img src="./public/nortephoto.png" style="width:100%" onclick="openInNewTab('localhost:15001')">
+        <img src="./public/nortephoto.png" style="width:100%" onclick="openInNewTab('localhost:15001')">
 
         <div class="text">Caption Text</div>
       </div>
@@ -105,205 +231,170 @@
 
   </section>
 
-  <!-- Equipa -->
 
-  <ul class="equipa " id="equipa">
-    <h2>A Nossa Equipa</h2>
-    <li class="transition">
-      <div class="wrapper">
-        <!-- <img class="more-about" src="/public/img/power.jpg"> -->
 
-        <!-- <img class="mx-auto rounded-circle"  src="./public/assets/images/vitor.jpg" alt="filipe" height="120" width="120"> -->
 
-        <span class="transition">
-          <div class="text-wrapper transition">
-            <h3 class="transition" style="padding-top: 10px">Filipe Barra
-              <em>Web Developer e Aluno de MIEGSI</em>
-            </h3>
-            <p> Aluno de MIEGSI PL segundo ano. </p>
-            <a href="https://www.facebook.com/fi.barra98">FACEBOOK</a>
+
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4 col-sm-6">
+
+
+        <div class="our-team">
+
+          <div class="pic">
+
+            <img src="/public/assets/images/vitor.jpg">
+            <ul class="social">
+
+              <li>
+                <a href="#" class="fa fa-facebook"></a>
+              </li>
+
+              <li>
+                <a href="#" class="fa fa-google-plus"></a>
+              </li>
+
+              <li>
+                <a href="#" class="fa fa-instagram"></a>
+              </li>
+
+              <li>
+                <a href="#" class="fa fa-linkedin"></a>
+              </li>
+            </ul>
           </div>
-        </span>
-      </div>
-    </li>
-    <li class="transition">
-      <div class="wrapper">
-        <!-- <img class="more-about" src="/public/img/power.jpg"> -->
 
-        <!-- <img class="mx-auto rounded-circle"  src="./public/assets/images/vitor.jpg" alt="filipe" height="120" width="120"> -->
+          <div class="team-content">
 
-        <span class="transition">
-          <div class="text-wrapper transition">
-            <h3 class="transition" style="padding-top: 10px">Filipe Barra
-              <em>Web Developer e Aluno de MIEGSI</em>
-            </h3>
-            <p> Aluno de MIEGSI PL segundo ano. </p>
-            <a href="https://www.facebook.com/fi.barra98">FACEBOOK</a>
-          </div>
-        </span>
-      </div>
-    </li>
-    <li class="transition">
-      <div class="wrapper">
-        <!-- <img class="more-about" src="/public/img/power.jpg"> -->
+            <h3 class="title">Williamson</h3>
 
-        <!-- <img class="mx-auto rounded-circle"  src="./public/assets/images/vitor.jpg" alt="filipe" height="120" width="120"> -->
-
-        <span class="transition">
-          <div class="text-wrapper transition">
-            <h3 class="transition" style="padding-top: 10px">Filipe Barra
-              <em>Web Developer e Aluno de MIEGSI</em>
-            </h3>
-            <p> Aluno de MIEGSI PL segundo ano. </p>
-            <a href="https://www.facebook.com/fi.barra98">FACEBOOK</a>
-          </div>
-        </span>
-      </div>
-    </li>
-    <li class="transition">
-      <div class="wrapper">
-        <!-- <img class="more-about" src="/public/img/power.jpg"> -->
-
-        <!-- <img class="mx-auto rounded-circle"  src="./public/assets/images/vitor.jpg" alt="filipe" height="120" width="120"> -->
-
-        <span class="transition">
-          <div class="text-wrapper transition">
-            <h3 class="transition" style="padding-top: 10px">Filipe Barra
-              <em>Web Developer e Aluno de MIEGSI</em>
-            </h3>
-            <p> Aluno de MIEGSI PL segundo ano. </p>
-            <a href="https://www.facebook.com/fi.barra98">FACEBOOK</a>
-          </div>
-        </span>
-      </div>
-    </li>
-    <li class="transition">
-      <div class="wrapper">
-        <!-- <img class="more-about" src="/public/img/power.jpg"> -->
-
-        <!-- <img class="mx-auto rounded-circle"  src="./public/assets/images/vitor.jpg" alt="filipe" height="120" width="120"> -->
-
-        <span class="transition">
-          <div class="text-wrapper transition">
-            <h3 class="transition" style="padding-top: 10px">Filipe Barra
-              <em>Web Developer e Aluno de MIEGSI</em>
-            </h3>
-            <p> Aluno de MIEGSI PL segundo ano. </p>
-            <a href="https://www.facebook.com/fi.barra98">FACEBOOK</a>
-          </div>
-        </span>
-      </div>
-    </li>
-    <!--<li class="transition">
-    <div class="wrapper"> <img class="more-about" src="/public/img/power.jpg">
-      <ul class="social">
-       <li class="transition" ><a href="https://www.facebook.com/mario.ribeiro97">FACEBOOK</a></li>
-      </ul>
-      <img class="mx-auto rounded-circle" src="/public/img/mario1.jpg" alt="mario" height="120" width="120">
-      <h3 class="transition"  style="padding-top: 10px">Mário Ribeiro <em>Web Developer | Aluno de MIEGSI</em></h3>
-      <span class="transition">
-      <div class="text-wrapper transition">
-        <p> Aluno de MIEGSI PL segundo ano. </p>
-      </div>
-      </span> </div>
-  </li>-->
-  </ul>
-  <style>
-    .col-centered {
-      float: center;
-      margin: auto;
-    }
-  </style>
-
-  <div class="container mx-auto" style="right:60%; left:50%;">
-
-    <div class="col-md-3 col-sm-6 mx-auto">
-      <div class="our-team">
-        <div class="pic">
-          <img src="./public/assets/images/vitor.jpg" alt="">
-          <div class="team-profile">
-            <h3 class="team-title">Miranda joy</h3>
-            <span class="post">Web Designer</span>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ex tellus. Nam sit amet eros sed ipsum malesuada laoreet.
-            </p>
+            <span class="post">Web Developer</span>
           </div>
         </div>
-        <ul class="social-links">
-          <li>
-            <a href="#" class="fa fa-linkedin"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-google-plus"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-twitter"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-facebook"></a>
-          </li>
-        </ul>
       </div>
-    </div>
-    <div class="col-md-3 col-sm-6 mx-auto">
-      <div class="our-team">
-        <div class="pic">
-          <img src="./public/assets/images/vitor.jpg" alt="">
-          <div class="team-profile">
-            <h3 class="team-title">Miranda joy</h3>
-            <span class="post">Web Designer</span>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ex tellus. Nam sit amet eros sed ipsum malesuada laoreet.
-            </p>
+      <div class="col-md-4 col-sm-6">
+
+   
+          <div class="our-team">
+  
+            <div class="pic">
+  
+              <img src="/public/assets/images/vitor.jpg">
+              <ul class="social">
+  
+                <li>
+                  <a href="#" class="fa fa-facebook"></a>
+                </li>
+  
+                <li>
+                  <a href="#" class="fa fa-google-plus"></a>
+                </li>
+  
+                <li>
+                  <a href="#" class="fa fa-instagram"></a>
+                </li>
+  
+                <li>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="team-content">
+  
+              <h3 class="title">Williamson</h3>
+  
+              <span class="post">Web Developer</span>
+            </div>
           </div>
         </div>
-        <ul class="social-links">
-          <li>
-            <a href="#" class="fa fa-linkedin"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-google-plus"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-twitter"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-facebook"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-6 mx-auto">
-      <div class="our-team">
-        <div class="pic">
-          <img src="./public/assets/images/vitor.jpg" alt="">
-          <div class="team-profile">
-            <h3 class="team-title">Miranda joy</h3>
-            <span class="post">Web Designer</span>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ex tellus. Nam sit amet eros sed ipsum malesuada laoreet.
-            </p>
+        <div class="col-md-4 col-sm-6">
+
+   
+            <div class="our-team">
+    
+              <div class="pic">
+    
+                <img src="/public/assets/images/vitor.jpg">
+                <ul class="social">
+    
+                  <li>
+                    <a href="#" class="fa fa-facebook"></a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="fa fa-google-plus"></a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="fa fa-linkedin"></a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="team-content">
+    
+                <h3 class="title">Williamson</h3>
+    
+                <span class="post">Web Developer</span>
+              </div>
+            </div>
           </div>
-        </div>
-        <ul class="social-links">
-          <li>
-            <a href="#" class="fa fa-linkedin"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-google-plus"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-twitter"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-facebook"></a>
-          </li>
-        </ul>
-      </div>
+          <div class="col-md-4 col-sm-6">
+
+   
+              <div class="our-team">
+      
+                <div class="pic">
+      
+                  <img src="/public/assets/images/vitor.jpg">
+                  <ul class="social">
+      
+                    <li>
+                      <a href="#" class="fa fa-facebook"></a>
+                    </li>
+      
+                    <li>
+                      <a href="#" class="fa fa-google-plus"></a>
+                    </li>
+      
+                    <li>
+                      <a href="#" class="fa fa-instagram"></a>
+                    </li>
+      
+                    <li>
+                      <a href="#" class="fa fa-linkedin"></a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="team-content">
+      
+                  <h3 class="title">Williamson</h3>
+      
+                  <span class="post">Web Developer</span>
+                </div>
+              </div>
+            </div>
+            
+
     </div>
-
-
   </div>
+
+
+
+
+
+
+
   <!-- <section class="module" id="team">
           <div class="container">
             <div class="row">
@@ -451,10 +542,9 @@
   </section>
 
   <script>
-  
-  function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-  win.focus();
-}
+    function openInNewTab(url) {
+      var win = window.open(url, '_blank');
+      win.focus();
+    }
   </script>
   <% include partials/footer-frontend %>

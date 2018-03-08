@@ -7,6 +7,8 @@ module.exports = {
 		});
 	},
 	
+	
+
 	bilhetes(callback) {
 		var sql = 'SELECT * from bilhetes';
 		global.connection.query(sql, function(error, rows, fields){
